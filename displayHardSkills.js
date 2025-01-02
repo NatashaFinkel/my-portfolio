@@ -9,6 +9,7 @@ async function displayHardSkills() {
             const span = document.createElement('span');
             const img = document.createElement('img');
             img.src = skill.imgSrc;
+            img.classList.add('hard-skills-img');
             span.appendChild(img);
             span.appendChild(document.createTextNode(skill.name));
             container.appendChild(span);
