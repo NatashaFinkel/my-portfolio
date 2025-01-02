@@ -10,5 +10,19 @@
     {
         "name": "JavaScript",
         "imgSrc": "../assets/hardSkills/javascript.svg"
+    },
+    {
+        "name": "React",
+        "imgSrc": "./assets/hardSkills/react.svg"
+    },
+    {
+        "name": "React Router",
+        "imgSrc": "./assets/hardSkills/react-router.svg"
+    },
+
+    {
+        "name": "Create React App",
+        "imgSrc": "./assets/hardSkills/create-react-app.svg"
     }
+
 ]
