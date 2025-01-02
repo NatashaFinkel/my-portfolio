@@ -5,8 +5,10 @@ html {
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
-    padding: 50px 50px;
+    /*     padding: 50px 50px; */
+    padding: 0;
     box-sizing: border-box;
+    width: 100%;
 }
 
 ul {
@@ -49,4 +51,23 @@ main {
 .hard-skills-img {
     height: 50px;
     width: auto;
+}
+
+/* Tablettes */
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    .hard-skills-container {
+        grid-template-columns: auto auto auto;
+    }
+
+}
+
+/* Téléphones (grands) */
+@media screen and (max-width: 425px) {
+    .hard-skills-container {
+        grid-template-columns: auto auto;
+    }
 }
