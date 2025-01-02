@@ -1,0 +1,14 @@
+[
+    {
+        "name": "HTML",
+        "imgSrc": "./assets/hardSkills/html5.svg"
+    },
+    {
+        "name": "CSS",
+        "imgSrc": "./assets/hardSkills/css.svg"
+    },
+    {
+        "name": "JavaScript",
+        "imgSrc": "../assets/hardSkills/javascript.svg"
+    }
+]
