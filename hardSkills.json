@@ -19,10 +19,12 @@
         "name": "React Router",
         "imgSrc": "./assets/hardSkills/react-router.svg"
     },
-
     {
         "name": "Create React App",
         "imgSrc": "./assets/hardSkills/create-react-app.svg"
+    },
+    {
+        "name": "Redux & Redux Toolkit",
+        "imgSrc": "./assets/hardSkills/redux.svg"
     }
-
 ]
