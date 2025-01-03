@@ -5,16 +5,19 @@ html {
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
-    /*     padding: 50px 50px; */
     padding: 0;
     box-sizing: border-box;
     width: 100%;
+    max-width: 1440px;
+    min-width: 400px;
+    border: 1px solid black;
 }
 
 ul {
     display: flex;
     justify-content: center;
     gap: 2%;
+
 }
 
 li {
@@ -55,6 +58,10 @@ main {
 
 /* Tablettes */
 @media screen and (max-width: 768px) {
+    body {
+        font-size: 15px;
+    }
+
     h1 {
         font-size: 30px;
     }
@@ -63,10 +70,25 @@ main {
         grid-template-columns: auto auto auto;
     }
 
+    .hard-skills-container span {
+        height: 95px;
+        width: 95px;
+        gap: 15px;
+    }
+
+
+    .hard-skills-img {
+        height: 40px;
+    }
+
 }
 
 /* Téléphones (grands) */
 @media screen and (max-width: 425px) {
+    h2 {
+        font-size: 1em;
+    }
+
     .hard-skills-container {
         grid-template-columns: auto auto;
     }
