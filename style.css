@@ -22,7 +22,26 @@ ul {
 
 li {
     list-style-type: none;
+}
+
+a {
     color: black;
+    text-decoration: none;
+}
+
+.linkedin-link {
+    background-color: #0b66c2;
+    padding: 10px;
+}
+
+.linkedin-link a {
+    color: white;
+    font-weight: 900;
+    padding: 10px;
+}
+
+.linkedin-link:hover, .linkedin-link a:hover {
+    background-color: #028df0;
 }
 
 main {
