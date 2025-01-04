@@ -54,6 +54,14 @@ main {
     display: flex;
     flex-direction: column;
     text-align: center;
+.about-me-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    justify-self: center;
+    width: 32%;
+    text-align: left;
 }
 
 .hard-skills-container {
@@ -116,6 +124,8 @@ main {
         border: none;
         box-shadow: 0px 50px 50px 50px rgb(187, 187, 187);
         width: 100%;
+    .about-me-container {
+        width: 45%;
     }
 
     h2 {
