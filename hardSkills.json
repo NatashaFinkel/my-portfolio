@@ -50,5 +50,9 @@
     {
         "name": "GitHub",
         "imgSrc": "./assets/hardSkills/github_light.svg"
+    },
+    {
+     "name": "English",
+     "imgSrc": "./assets/hardSkills/union-jack.png"   
     }
 ]
