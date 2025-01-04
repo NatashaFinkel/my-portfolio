@@ -8,6 +8,10 @@
         "imgSrc": "./assets/hardSkills/css.svg"
     },
     {
+        "name": "Sass",
+        "imgSrc": "../assets/hardSkills/sass.svg"
+    },
+    {
         "name": "JavaScript",
         "imgSrc": "../assets/hardSkills/javascript.svg"
     },
