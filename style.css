@@ -10,7 +10,12 @@ body {
     width: 100%;
     max-width: 1440px;
     min-width: 400px;
-    border: 1px solid black;
+}
+
+header {
+    position: fixed;
+    top: 0px;
+    width: 100%;
 }
 
 nav {
@@ -35,6 +40,15 @@ a {
     text-decoration: none;
 }
 
+h1 {
+    margin-bottom: 0;
+}
+
+.sous-titre {
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
 .linkedin-link {
     background-color: #0b66c2;
     padding: 10px;
@@ -46,7 +60,8 @@ a {
     padding: 10px;
 }
 
-.linkedin-link:hover, .linkedin-link a:hover {
+.linkedin-link:hover,
+.linkedin-link a:hover {
     background-color: #028df0;
 }
 
@@ -54,6 +69,14 @@ main {
     display: flex;
     flex-direction: column;
     text-align: center;
+    margin: 50px 0px;
+    padding-top: 3%;
+}
+
+section {
+    margin: 5% 0px;
+}
+
 .about-me-container {
     display: flex;
     flex-direction: column;
@@ -118,12 +141,21 @@ main {
 
 /* Téléphones (grands) */
 @media screen and (max-width: 425px) {
-    nav {
-        position: fixed;
-        bottom: 0;
-        border: none;
-        box-shadow: 0px 50px 50px 50px rgb(187, 187, 187);
-        width: 100%;
+    header {
+        top: auto;
+        bottom: 0px;
+    }
+
+    ul {
+        justify-content: space-around;
+        gap: 0px;
+    }
+
+    main {
+        margin-top: 0px;
+        margin-bottom: 170px;
+    }
+
     .about-me-container {
         width: 45%;
     }
