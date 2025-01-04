@@ -64,7 +64,6 @@ h1 {
 .linkedin-link {
     background-color: #0b66c2;
     padding: 10px;
-    width: fit-content;
 }
 
 .linkedin-link:hover,
@@ -135,13 +134,14 @@ footer {
 .social-media-container {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
 }
 
 .GitHub-link {
     background-color: black;
     padding: 10px;
-    width: fit-content;
 }
 
 .GitHub-link:hover {
@@ -154,10 +154,6 @@ footer {
 
 footer p {
     margin: 5px 0px;
-}
-
-footer .linkedin-link {
-    margin-bottom: 20px;
 }
 
 .contact-container {
@@ -215,6 +211,10 @@ footer .linkedin-link {
 
     main {
         margin-top: 0px;
+    }
+
+    .media {
+        width: 140px;
     }
 
     .about-me-container {
