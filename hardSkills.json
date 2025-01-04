@@ -9,15 +9,15 @@
     },
     {
         "name": "Sass",
-        "imgSrc": "../assets/hardSkills/sass.svg"
+        "imgSrc": "./assets/hardSkills/sass.svg"
     },
     {
         "name": "JavaScript",
-        "imgSrc": "../assets/hardSkills/javascript.svg"
+        "imgSrc": "./assets/hardSkills/javascript.svg"
     },
     {
         "name": "TypeScript",
-        "imgSrc": "../assets/hardSkills/typescript.svg"
+        "imgSrc": "./assets/hardSkills/typescript.svg"
     },
     {
         "name": "React",
@@ -49,7 +49,7 @@
     },
     {
         "name": "GitHub",
-        "imgSrc": "./assets/hardSkills/github_light.svg"
+        "imgSrc": "./assets/hardSkills/Github_light.svg"
     },
     {
      "name": "English",
