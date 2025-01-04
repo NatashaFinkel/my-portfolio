@@ -49,15 +49,22 @@ h1 {
     margin-bottom: 40px;
 }
 
-.linkedin-link {
-    background-color: #0b66c2;
-    padding: 10px;
+.media {
+    width: 205px;
+    justify-self: center;
+    border: 1px solid black;
 }
 
-.linkedin-link a {
+.media a {
     color: white;
     font-weight: 900;
     padding: 10px;
+}
+
+.linkedin-link {
+    background-color: #0b66c2;
+    padding: 10px;
+    width: fit-content;
 }
 
 .linkedin-link:hover,
@@ -112,6 +119,54 @@ section {
     width: auto;
 }
 
+footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.footer-main-container {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 30px;
+}
+
+.social-media-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.GitHub-link {
+    background-color: black;
+    padding: 10px;
+    width: fit-content;
+}
+
+.GitHub-link:hover {
+    background-color: rgb(54, 53, 53);
+}
+
+.GitHub-link a {
+    color: white;
+}
+
+footer p {
+    margin: 5px 0px;
+}
+
+footer .linkedin-link {
+    margin-bottom: 20px;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    text-align: left;
+}
+
 /* Tablettes */
 @media screen and (max-width: 768px) {
     body {
@@ -120,6 +175,15 @@ section {
 
     h1 {
         font-size: 30px;
+    }
+
+    .media {
+        width: 165px;
+        padding: 5px;
+    }
+
+    .media a {
+        padding: 0px;
     }
 
     .hard-skills-container {
@@ -132,11 +196,9 @@ section {
         gap: 15px;
     }
 
-
     .hard-skills-img {
         height: 40px;
     }
-
 }
 
 /* Téléphones (grands) */
@@ -153,7 +215,6 @@ section {
 
     main {
         margin-top: 0px;
-        margin-bottom: 170px;
     }
 
     .about-me-container {
@@ -166,5 +227,9 @@ section {
 
     .hard-skills-container {
         grid-template-columns: auto auto;
+    }
+
+    footer {
+        margin-bottom: 57px;
     }
 }
