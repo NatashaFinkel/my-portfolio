@@ -158,15 +158,6 @@ section {
     margin: 0 0 10px;
 }
 
-.details a {
-    color: teal;
-    text-decoration: none;
-}
-
-.details a:hover {
-    text-decoration: underline;
-}
-
 footer {
     display: flex;
     flex-direction: column;

@@ -52,7 +52,7 @@
         "imgSrc": "./assets/hardSkills/Github_light.svg"
     },
     {
-     "name": "English",
-     "imgSrc": "./assets/hardSkills/union-jack.png"   
+        "name": "English",
+        "imgSrc": "./assets/hardSkills/union-jack.png"
     }
 ]
