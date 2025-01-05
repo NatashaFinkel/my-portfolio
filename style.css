@@ -118,6 +118,55 @@ section {
     width: auto;
 }
 
+.education-container {
+    width: 628px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    border: 1px solid black;
+    justify-content: center;
+}
+
+.year {
+    display: flex;
+    width: 10%;
+    font-weight: bold;
+    font-size: 24px;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid black;
+    padding: 0px 20px;
+}
+
+.details {
+    width: 90%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.formation-detail {
+    margin: 0px;
+    font-weight: 900;
+}
+
+.details h3 {
+    margin: 0 0 10px;
+}
+
+.details a {
+    color: teal;
+    text-decoration: none;
+}
+
+.details a:hover {
+    text-decoration: underline;
+}
+
 footer {
     display: flex;
     flex-direction: column;
@@ -165,7 +214,10 @@ footer p {
 
 /* Tablettes */
 @media screen and (max-width: 768px) {
-    body {
+
+    body,
+    .year,
+    h3 {
         font-size: 15px;
     }
 
@@ -195,10 +247,15 @@ footer p {
     .hard-skills-img {
         height: 40px;
     }
+
+    .education-container {
+        width: 391px;
+    }
 }
 
 /* Téléphones (grands) */
 @media screen and (max-width: 425px) {
+
     header {
         top: auto;
         bottom: 0px;
@@ -227,6 +284,24 @@ footer p {
 
     .hard-skills-container {
         grid-template-columns: auto auto;
+    }
+
+    .education-container {
+        width: 254px;
+    }
+
+    .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .year {
+        border: 1px solid black;
+        margin-top: 5%;
+    }
+
+    .details h3 {
+        text-align: center;
     }
 
     footer {
