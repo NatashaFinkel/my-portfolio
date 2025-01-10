@@ -212,8 +212,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    gap: 25px;
+    justify-content: space-between;
 }
 
 .GitHub-link {
@@ -233,11 +232,30 @@ footer p {
     margin: 5px 0px;
 }
 
+footer p:first-of-type {
+    margin-top: 0px;
+}
+
 .contact-container {
     display: flex;
     flex-direction: column;
     gap: 5px;
     text-align: left;
+}
+
+.contact-container a {
+    color: black;
+    text-decoration: underline;
+}
+
+.contact-container span {
+    border: 1px solid goldenrod;
+    padding: 10px 10px;
+    font-weight: 900;
+}
+
+.contact-container span:hover {
+    background-color: rgba(255, 217, 0, 0.473);
 }
 
 /* Tablettes */
@@ -255,7 +273,6 @@ footer p {
 
     .media {
         width: 165px;
-        padding: 5px;
     }
 
     .media a {
@@ -300,6 +317,7 @@ footer p {
 
     .media {
         width: 140px;
+        padding: 10px 5px;
     }
 
     .about-me-container {
@@ -334,5 +352,9 @@ footer p {
 
     footer {
         margin-bottom: 57px;
+    }
+
+    .contact-container span {
+        padding: 10px 5px;
     }
 }
