@@ -24,6 +24,11 @@
         "imgSrc": "./assets/hardSkills/react.svg"
     },
     {
+        "name": "Vite",
+        "imgSrc":"./assets/hardSkills/vite.svg",
+        "imgCredits": "https://pixabay.com/fr/illustrations/search-engine-optimization-seo-1359427/"
+    },
+    {
         "name": "React Router",
         "imgSrc": "./assets/hardSkills/react-router.svg"
     },
