@@ -15,7 +15,7 @@ async function displayHardSkills() {
             hardSkillsContainer.appendChild(span);
         });
     } catch (error) {
-        console.error('Erreur lors du chargement des hard skills:', error);
+        console.error('Erreur lors du chargement des hard skills: ', error);
     }
 }
 
