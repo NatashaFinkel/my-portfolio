@@ -1,27 +1,33 @@
 [
     {
         "name": "HTML",
-        "imgSrc": "./assets/hardSkills/html5.svg"
+        "imgSrc": "./assets/hardSkills/html5.svg",
+        "imgCredits": "https://svgl.app/?ref=dailydev&search=html"
     },
     {
         "name": "CSS",
-        "imgSrc": "./assets/hardSkills/css.svg"
+        "imgSrc": "./assets/hardSkills/css.svg",
+        "imgCredits": "https://svgl.app/?ref=dailydev&search=css"
     },
     {
         "name": "Sass",
-        "imgSrc": "./assets/hardSkills/sass.svg"
+        "imgSrc": "./assets/hardSkills/sass.svg",
+        "imgCredits": "https://svgl.app/?ref=dailydev&search=sass"
     },
     {
         "name": "JavaScript",
-        "imgSrc": "./assets/hardSkills/javascript.svg"
+        "imgSrc": "./assets/hardSkills/javascript.svg",
+        "imgCredits": "https://svgl.app/?ref=dailydev&search=JavaScript"
     },
     {
         "name": "TypeScript",
-        "imgSrc": "./assets/hardSkills/typescript.svg"
+        "imgSrc": "./assets/hardSkills/typescript.svg",
+        "imgCredits": "https://svgl.app/?ref=dailydev&search=TypeScript"
     },
     {
         "name": "React",
-        "imgSrc": "./assets/hardSkills/react.svg"
+        "imgSrc": "./assets/hardSkills/react.svg",
+        "imgCredits": "https://svgl.app/?ref=dailydev&search=React"
     },
     {
         "name": "Vite",
@@ -30,38 +36,47 @@
     },
     {
         "name": "React Router",
-        "imgSrc": "./assets/hardSkills/react-router.svg"
+        "imgSrc": "./assets/hardSkills/react-router.svg",
+        "imgCredits": "https://svgl.app/?ref=dailydev&search=React"
     },
     {
         "name": "Create React App",
-        "imgSrc": "./assets/hardSkills/create-react-app.svg"
+        "imgSrc": "./assets/hardSkills/create-react-app.svg",
+        "imgCredits": "https://create-react-app.dev/"
     },
     {
         "name": "Redux Redux Toolkit",
-        "imgSrc": "./assets/hardSkills/redux.svg"
+        "imgSrc": "./assets/hardSkills/redux.svg",
+        "imgCredits": "https://svgl.app/?ref=dailydev&search=Redux"
     },
     {
         "name": "Jest",
-        "imgSrc": "./assets/hardSkills/jest.svg"
+        "imgSrc": "./assets/hardSkills/jest.svg",
+        "imgCredits": "https://svgl.app/?ref=dailydev&search=Jest"
     },
     {
         "name": "VS Code",
-        "imgSrc": "./assets/hardSkills/vscode.svg"
+        "imgSrc": "./assets/hardSkills/vscode.svg",
+        "imgCredits": "https://svgl.app/?ref=dailydev&search=Visual+Studio+Code"
     },
     {
         "name": "Git",
-        "imgSrc": "./assets/hardSkills/git.svg"
+        "imgSrc": "./assets/hardSkills/git.svg",
+        "imgCredits": "https://svgl.app/?ref=dailydev&search=Git"
     },
     {
         "name": "GitHub",
-        "imgSrc": "./assets/hardSkills/Github_light.svg"
+        "imgSrc": "./assets/hardSkills/Github_light.svg",
+        "imgCredits": "https://svgl.app/?ref=dailydev&search=Github"
     },
     {
         "name": "SEO",
-        "imgSrc": "./assets/hardSkills/SEO.png"
+        "imgSrc": "./assets/hardSkills/SEO.png",
+        "imgCredits": "https://pixabay.com/fr/illustrations/search-engine-optimization-seo-1359427/"
     },
     {
         "name": "English",
-        "imgSrc": "./assets/hardSkills/union-jack.png"
+        "imgSrc": "./assets/hardSkills/union-jack.png",
+        "imgCredits": "https://pixabay.com/fr/vectors/uni-drapeau-royaume-britanique-28519/"
     }
 ]
