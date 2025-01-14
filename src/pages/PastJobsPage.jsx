@@ -1,7 +1,8 @@
 function PastJobsPage() {
     return (
         <div>
-            <h1>Page expériences pro</h1>
+            <h1>Expérience professionnelle</h1>
+            <div class="past-jobs-container" id="past-jobs-container"></div>
         </div>
     )
 }
