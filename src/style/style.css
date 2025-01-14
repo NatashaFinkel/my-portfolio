@@ -10,7 +10,7 @@ body {
     width: 100%;
     max-width: 1440px;
     min-width: 400px;
-/*      color: white;
+    /*      color: white;
 
     background: hsla(216, 93%, 12%, 1);
 
@@ -70,6 +70,7 @@ a {
     width: 205px;
     justify-self: center;
     border: 1px solid black;
+    padding: 10px;
 }
 
 .media a {
@@ -79,7 +80,6 @@ a {
 
 .linkedin-link {
     background-color: #0b66c2;
-    padding: 10px;
 }
 
 .linkedin-link:hover,
@@ -91,7 +91,6 @@ main {
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin: 50px 0px;
     padding-top: 3%;
     align-items: center;
 }
@@ -103,7 +102,8 @@ section {
 .contact-page-main-container {
     display: flex;
     justify-content: space-between;
-    width: 55%;
+    width: 75%;
+    justify-self: center;
 }
 
 h2 {
@@ -198,6 +198,10 @@ h2 {
     margin: 0 0 10px;
 }
 
+footer{
+    border-top: 1px solid black;
+}
+
 /* 
 footer {
     display: flex;
@@ -213,7 +217,7 @@ footer {
 
  */
 
- .social-media-container {
+.social-media-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -283,8 +287,13 @@ footer p:first-of-type {
         font-size: 30px;
     }
 
+    .contact-page-main-container {
+        width: 100%;
+    }
+
     .media {
-        width: 165px;
+        width: 140px;
+        padding: 5px;
     }
 
     .media a {
