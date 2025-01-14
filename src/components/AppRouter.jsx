@@ -6,7 +6,6 @@ import ProjectsPage from "../pages/ProjectsPage";
 import FormationPage from "../pages/FormationPage";
 import SkillsPage from '../pages/SkillsPage';
 import PastJobsPage from "../pages/PastJobsPage";
-import ContactPage from '../pages/ContactPage';
 import ErrorPage from '../pages/ErrorPage';
 
 const AppRouter = () => {
@@ -19,7 +18,6 @@ const AppRouter = () => {
                 <Route path="formation" element={<FormationPage />} />
                 <Route path="/compétences" element={<SkillsPage />} />
                 <Route path="/expérience-professionnelle" element={<PastJobsPage />} />
-                <Route path="/contact" element={<ContactPage />} />
                 <Route path="*" element={<ErrorPage />} />
             </Routes>
         </Router>
