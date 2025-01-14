@@ -18,27 +18,27 @@
         // the correct url will be waiting in the browser's history for
         // the single page app to route accordingly.
         (function (l) {
-          if (l.search) {
-            var q = {};
-            l.search.slice(1).split('&').forEach(function (v) {
-              var a = v.split('=');
-              q[a[0]] = a.slice(1).join('=').replace(/~and~/g, '&');
-            });
-            if (q.p !== undefined) {
-              window.history.replaceState(null, null,
-                l.pathname.slice(0, -1) + (q.p || '') +
-                (q.q ? ('?' + q.q) : '') +
-                l.hash
-              );
+            if (l.search) {
+                var q = {};
+                l.search.slice(1).split('&').forEach(function (v) {
+                    var a = v.split('=');
+                    q[a[0]] = a.slice(1).join('=').replace(/~and~/g, '&');
+                });
+                if (q.p !== undefined) {
+                    window.history.replaceState(null, null,
+                        l.pathname.slice(0, -1) + (q.p || '') +
+                        (q.q ? ('?' + q.q) : '') +
+                        l.hash
+                    );
+                }
             }
-          }
         }(window.location))
-      </script>
+    </script>
     <title>Portfolio</title>
 </head>
 
 <body>
-<!--     <header>
+    <!--     <header>
         <nav>
             <ul>
                 <li><a href="#projects">Projets</a></li>
@@ -61,13 +61,7 @@
                 </div>
             </div>
         </div>
-        <section>
-            <h2>À propos de moi</h2>
-            <div class="about-me-container">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisi nulla, facilisis vel erat eget,
-                    porta tempor libero. Curabitur risus purus, aliquam sit leo.</p>
-            </div>
-        </section>
+       
         <section>
             <h2>Mes projets</h2>
             <div class="projects-container" id="projects-container"></div>
