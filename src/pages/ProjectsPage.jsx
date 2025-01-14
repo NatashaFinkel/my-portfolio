@@ -1,7 +1,8 @@
 function ProjectsPage() {
     return (
         <div>
-            <h1>Page projets</h1>
+            <h1>Mes projets</h1>
+            <div class="projects-container" id="projects-container"></div>
         </div>
     )
 }
