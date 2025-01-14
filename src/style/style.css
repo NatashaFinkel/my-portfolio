@@ -10,7 +10,7 @@ body {
     width: 100%;
     max-width: 1440px;
     min-width: 400px;
-    /*     color: white;
+/*      color: white;
 
     background: hsla(216, 93%, 12%, 1);
 
@@ -61,10 +61,6 @@ a {
     text-decoration: none;
 }
 
-h1 {
-    margin-bottom: 0;
-}
-
 .sous-titre {
     margin-top: 10px;
     margin-bottom: 40px;
@@ -97,10 +93,17 @@ main {
     text-align: center;
     margin: 50px 0px;
     padding-top: 3%;
+    align-items: center;
 }
 
 section {
     margin: 5% 0px;
+}
+
+.contact-page-main-container {
+    display: flex;
+    justify-content: space-between;
+    width: 55%;
 }
 
 h2 {
@@ -195,6 +198,7 @@ h2 {
     margin: 0 0 10px;
 }
 
+/* 
 footer {
     display: flex;
     flex-direction: column;
@@ -207,11 +211,14 @@ footer {
     padding-bottom: 30px;
 }
 
-.social-media-container {
+ */
+
+ .social-media-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 15%;
 }
 
 .top-container {
@@ -243,7 +250,6 @@ footer p:first-of-type {
 .contact-container {
     display: flex;
     flex-direction: column;
-    gap: 5px;
     text-align: left;
 }
 
@@ -257,6 +263,7 @@ footer p:first-of-type {
     background-color: white;
     padding: 10px 10px;
     font-weight: 900;
+    margin-top: 30px;
 }
 
 .contact-container span:hover {
