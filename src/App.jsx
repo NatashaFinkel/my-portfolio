@@ -1,9 +1,10 @@
 import React from 'react';
+import AppRouter from './components/AppRouter';
 
 const App = () => {
   return (
     <div>
-      <h1>Bienvenue dans mon portfolio (version 2) !! </h1>
+      <AppRouter />
     </div>
   );
 };
