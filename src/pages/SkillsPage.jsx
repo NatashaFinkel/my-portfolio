@@ -1,3 +1,5 @@
+import '../../displayHardSkills';
+
 function SkillsPage() {
     return (
         <div>
