@@ -7,12 +7,21 @@ async function displayHardSkills() {
         const hardSkillsContainer = document.getElementById('hard-skills-container');
         hardSkills.forEach(skill => {
             const span = document.createElement('span');
+            span.classList.add('skill');
             const img = document.createElement('img');
             img.src = skill.imgSrc;
             img.classList.add('hard-skills-img');
             span.appendChild(img);
             span.appendChild(document.createTextNode(skill.name));
             hardSkillsContainer.appendChild(span);
+            const skills = document.querySelectorAll(".skill");
+
+            skills.forEach((item, index) => {
+                setTimeout(() => {
+                    item.classList.add("visible");
+                }, index * 400);
+            });
+
         });
     } catch (error) {
         console.error('Erreur lors du chargement des hard skills: ', error);
