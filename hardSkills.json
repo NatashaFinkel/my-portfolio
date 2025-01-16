@@ -71,12 +71,12 @@
     },
     {
         "name": "SEO",
-        "imgSrc": "./assets/hardSkills/SEO.png",
+        "imgSrc": "./assets/hardSkills/SEO.svg",
         "imgCredits": "https://pixabay.com/fr/illustrations/search-engine-optimization-seo-1359427/"
     },
     {
         "name": "English",
-        "imgSrc": "./assets/hardSkills/union-jack.png",
+        "imgSrc": "./assets/hardSkills/union-jack.svg",
         "imgCredits": "https://pixabay.com/fr/vectors/uni-drapeau-royaume-britanique-28519/"
     }
 ]
