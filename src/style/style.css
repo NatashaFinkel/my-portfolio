@@ -10,7 +10,7 @@ body {
     width: 100%;
     max-width: 1440px;
     min-width: 400px;
-    color: white;
+    /*     color: white;
 
     background: hsla(216, 93%, 12%, 1);
 
@@ -20,7 +20,9 @@ body {
 
     background: -webkit-linear-gradient(314deg, hsla(216, 93%, 12%, 1) 3%, hsla(241, 91%, 32%, 1) 12%, rgba(82, 224, 205, 0.733) 40%, rgba(7, 160, 236, 0.256) 100%);
 
-    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#02193B", endColorstr="#075E9D", GradientType=1);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#02193B", endColorstr="#075E9D", GradientType=1); */
+
+    background-color: rgb(223, 223, 223);
 }
 
 header {
@@ -108,6 +110,7 @@ section {
 
 h2 {
     text-decoration: underline;
+    justify-self: center;
 }
 
 .about-me-container {
@@ -122,7 +125,7 @@ h2 {
 
 .hard-skills-container {
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto auto auto auto auto auto;
     justify-self: center;
     gap: 20px;
 }
@@ -134,9 +137,8 @@ h2 {
     justify-content: center;
     box-shadow: 12px 15px 10px rgb(167, 167, 167);
     text-wrap: wrap;
-    height: 120px;
-    width: 120px;
-    padding: 0px 10px;
+    height: 60px;
+    width: 60px;
     gap: 20px;
     background-color: white;
     color: black;
@@ -151,9 +153,36 @@ h2 {
     transform: translateY(0);
 }
 
-.hard-skills-img {
-    height: 50px;
-    width: auto;
+.tooltip {
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 12px;
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.2s ease, visibility 0.2s ease;
+}
+
+.tooltip::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #333 transparent transparent transparent;
+}
+
+.tooltip-container:hover .tooltip {
+    opacity: 1;
+    visibility: visible;
 }
 
 .light-background {
@@ -211,21 +240,6 @@ h2 {
 footer {
     border-top: 1px solid black;
 }
-
-/* 
-footer {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-}
-
-.footer-main-container {
-    display: flex;
-    justify-content: space-around;
-    padding-bottom: 30px;
-}
-
- */
 
 .social-media-container {
     display: flex;
@@ -311,13 +325,7 @@ footer p:first-of-type {
     }
 
     .hard-skills-container {
-        grid-template-columns: auto auto auto;
-    }
-
-    .hard-skills-container span {
-        height: 95px;
-        width: 95px;
-        gap: 15px;
+        grid-template-columns: auto auto auto auto auto;
     }
 
     .hard-skills-img {
