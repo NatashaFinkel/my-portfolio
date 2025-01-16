@@ -12,7 +12,11 @@ async function displayHardSkills() {
             img.src = skill.imgSrc;
             img.classList.add('hard-skills-img');
             span.appendChild(img);
-            span.appendChild(document.createTextNode(skill.name));
+            const tooltip = document.createElement('div');
+            tooltip.className = 'tooltip';
+            tooltip.textContent = skill.name;
+            span.appendChild(tooltip);
+            span.classList.add('tooltip-container');
             hardSkillsContainer.appendChild(span);
             const skills = document.querySelectorAll(".skill");
 
