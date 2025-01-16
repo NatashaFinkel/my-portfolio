@@ -185,6 +185,10 @@ h2 {
     visibility: visible;
 }
 
+.skill-txt {
+    display: none;
+}
+
 .light-background {
     color: black;
 }
@@ -376,7 +380,32 @@ footer p:first-of-type {
     }
 
     .hard-skills-container {
-        grid-template-columns: auto auto;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    .skill {
+        transform: translateX(950px);
+    }
+
+    .visible {
+        transform: translateX(0);
+    }
+
+    .hard-skills-container span {
+        width: 70%;
+        height: auto;
+    }
+
+    .hard-skills-img {
+        height: 60px;
+        padding: 20px;
+    }
+
+    .skill-txt {
+        display: flex;
     }
 
     .education-container {

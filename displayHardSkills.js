@@ -12,6 +12,10 @@ async function displayHardSkills() {
             img.src = skill.imgSrc;
             img.classList.add('hard-skills-img');
             span.appendChild(img);
+            const txtDiv = document.createElement('div');
+            txtDiv.classList.add('skill-txt');
+            txtDiv.appendChild(document.createTextNode(skill.name));
+            span.appendChild(txtDiv);
             const tooltip = document.createElement('div');
             tooltip.className = 'tooltip';
             tooltip.textContent = skill.name;
