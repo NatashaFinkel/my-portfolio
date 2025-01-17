@@ -137,8 +137,8 @@ h2 {
     justify-content: center;
     box-shadow: 12px 15px 10px rgb(167, 167, 167);
     text-wrap: wrap;
-    height: 60px;
-    width: 60px;
+    height: 90px;
+    width: 90px;
     gap: 20px;
     background-color: white;
     color: black;
@@ -183,6 +183,10 @@ h2 {
 .tooltip-container:hover .tooltip {
     opacity: 1;
     visibility: visible;
+}
+
+.hard-skills-img {
+    width: 60%;
 }
 
 .skill-txt {
@@ -329,11 +333,12 @@ footer p:first-of-type {
     }
 
     .hard-skills-container {
-        grid-template-columns: auto auto auto auto auto;
+        grid-template-columns: auto auto auto auto;
     }
 
-    .hard-skills-img {
-        height: 40px;
+    .hard-skills-container span {
+        width: 70px;
+        height: 70px;
     }
 
     .education-container {
@@ -397,6 +402,7 @@ footer p:first-of-type {
     .hard-skills-container span {
         width: 70%;
         height: auto;
+        gap: 0px;
     }
 
     .hard-skills-img {
@@ -404,8 +410,14 @@ footer p:first-of-type {
         padding: 20px;
     }
 
+    .tooltip-container:hover .tooltip {
+        display: none;
+    }
+
     .skill-txt {
         display: flex;
+        margin-bottom: 20px;
+        font-weight: 900;
     }
 
     .education-container {
