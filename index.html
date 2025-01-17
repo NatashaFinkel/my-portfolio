@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script>
+        // Single Page Apps for GitHub Pages
+        // https://github.com/rafrex/spa-github-pages
+        // Copyright (c) 2016 Rafael Pedicini, licensed under the MIT License
+        // ----------------------------------------------------------------------
+        // This script checks to see if a redirect is present in the query string
+        // and converts it back into the correct url and adds it to the
+        // browser's history using window.history.replaceState(...),
+        // which won't cause the browser to attempt to load the new url.
+        // When the single page app is loaded further down in this file,
+        // the correct url will be waiting in the browser's history for
+        // the single page app to route accordingly.
+        (function (l) {
+            if (l.search) {
+                var q = {};
+                l.search.slice(1).split('&').forEach(function (v) {
+                    var a = v.split('=');
+                    q[a[0]] = a.slice(1).join('=').replace(/~and~/g, '&');
+                });
+                if (q.p !== undefined) {
+                    window.history.replaceState(null, null,
+                        l.pathname.slice(0, -1) + (q.p || '') +
+                        (q.q ? ('?' + q.q) : '') +
+                        l.hash
+                    );
+                }
+            }
+        }(window.location))
+    </script>
+    <title>Portfolio</title>
+  <script type="module" crossorigin src="/my-portfolio/assets/index-Bp5KYoKB.js"></script>
+  <link rel="stylesheet" crossorigin href="/my-portfolio/assets/index-C9itPVEw.css">
+</head>
+
+<body>
+    <!--     
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#projects">Projets</a></li>
+                <li><a href="#hard-skills-container">Skills</a></li>
+                <li><a href="#education-container">Formation</a></li>
+                <li><a href="#past-jobs-container">Expérience</a></li>
+                <li><a href="#contact-container">Contact</a></li>
+            </ul>
+    </header>
+
+    <main>
+        <section class="light-background">
+            <h2>Formation</h2>
+            <div class="education-container" id="education-container">
+                <div class="row">
+                    <div class="year">2025</div>
+                    <div class="details">
+                        <h3>DÉVELOPPEUR INTÉGRATEUR WEB</h3>
+                        <p class="formation-detail">RNCP 36076</p>
+                        <p>OpenClassRooms</p>
+                        <p>
+                            Formation enregistrée au Répertoire National des Certifications
+                            Professionnelles, de niveau 5 (bac +2) sur les cadres français et européens des
+                            certifications (European Qualifications Framework).
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="year">2012</div>
+                    <div class="details">
+                        <h3>BACCALAUREAT GENERAL</h3>
+                        <p>Série LITTERAIRE</p>
+                        <p>Session 2012, Académie de Paris</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    -->
+    <div id="root"></div>
+</body>
+
+</html>
