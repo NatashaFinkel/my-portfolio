@@ -14,10 +14,10 @@ const AppRouter = () => {
             {/* ici : <NavBar /> */}
             <Routes>
                 <Route path="/" element={<HomePage />} />
-                <Route path="projets" element={<ProjectsPage />} />
+                <Route path="projects" element={<ProjectsPage />} />
                 <Route path="formation" element={<FormationPage />} />
-                <Route path="/compétences" element={<SkillsPage />} />
-                <Route path="/expérience-professionnelle" element={<PastJobsPage />} />
+                <Route path="/skills" element={<SkillsPage />} />
+                <Route path="/past-jobs" element={<PastJobsPage />} />
                 <Route path="*" element={<ErrorPage />} />
             </Routes>
         </Router>
