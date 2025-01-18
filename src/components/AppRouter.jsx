@@ -19,6 +19,7 @@ const AppRouter = () => {
                 <Route path="formation" element={<FormationPage />} />
                 <Route path="/skills" element={<SkillsPage />} />
                 <Route path="/past-jobs" element={<PastJobsPage />} />
+                <Route path="page-not-found" element={<ErrorPage />} />
                 <Route path="*" element={<ErrorPage />} />
             </Routes>
         </Router>
