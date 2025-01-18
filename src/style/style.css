@@ -322,6 +322,28 @@ footer p:first-of-type {
     background-color: rgba(255, 217, 0, 0.473);
 }
 
+.error-txt-div {
+    display: flex;
+    width: 400px;
+    text-align: left;
+    line-height: 30px;
+}
+
+.get-back-btn {
+    border: 2px solid black;
+    margin: 0px 10px;
+    padding: 0px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: rgb(142, 139, 139);
+    color: white;
+}
+
+.get-back-btn:hover {
+    background-color: rgb(232, 232, 232);
+    color: black;
+}
+
 /* Tablettes */
 @media screen and (max-width: 768px) {
 
@@ -370,6 +392,14 @@ footer p:first-of-type {
 
     h1 {
         font-size: 30px;
+    }
+
+    .error-img {
+        width: 70%;
+    }
+
+    .error-txt-div {
+        width: 280px;
     }
 
     .contact-page-main-container {
