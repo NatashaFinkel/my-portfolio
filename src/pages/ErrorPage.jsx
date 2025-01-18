@@ -1,7 +1,9 @@
 function ErrorPage() {
     return (
         <div>
-            <h1>Page d'erreur</h1>
+            <main>
+                <h1>Page d'erreur</h1>
+            </main>
         </div>
     )
 }

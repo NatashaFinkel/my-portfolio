@@ -1,6 +1,11 @@
 function FormationPage() {
     return (
-        <h1>Page Formation !</h1>
+        <div>
+            <main>
+                <h1>Page Formation !</h1>
+            </main>
+        </div>
+
     )
 }
 
