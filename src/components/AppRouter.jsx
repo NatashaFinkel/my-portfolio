@@ -7,11 +7,12 @@ import FormationPage from "../pages/FormationPage";
 import SkillsPage from '../pages/SkillsPage';
 import PastJobsPage from "../pages/PastJobsPage";
 import ErrorPage from '../pages/ErrorPage';
+import NavBar from './NavBar';
 
 const AppRouter = () => {
     return (
         <Router basename="/my-portfolio">
-            {/* ici : <NavBar /> */}
+            <NavBar />
             <Routes>
                 <Route path="/" element={<HomePage />} />
                 <Route path="projects" element={<ProjectsPage />} />
