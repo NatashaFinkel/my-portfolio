@@ -40,6 +40,7 @@
   </script>
   <script>
     const redirectUrl = window.location.origin + "/my-portfolio";
+    console.log(window.location.origin);
     setTimeout(() => {
       window.location.href = redirectUrl;
     }, 0);
@@ -50,6 +51,7 @@
 <body>
   <div id="root">
   </div>
+  <script type="module" src="./src/index.js"></script>
 </body>
 
 </html>
