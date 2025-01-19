@@ -34,7 +34,6 @@ header {
 nav {
     width: 100%;
     height: auto;
-    margin-bottom: 4%;
     background-color: rgb(138, 137, 137);
 }
 
@@ -137,24 +136,25 @@ h2 {
     grid-template-columns: auto auto auto auto auto auto;
     justify-self: center;
     gap: 20px;
+    width: 640px;
 }
 
 .hard-skills-container span {
-    display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
-    box-shadow: 12px 15px 10px rgb(167, 167, 167);
     text-wrap: wrap;
     height: 90px;
     width: 90px;
     gap: 20px;
-    background-color: white;
-    color: black;
 }
 
 .skill {
-    transform: translateY(-950px);
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color: black;
+    box-shadow: 12px 15px 10px rgb(167, 167, 167);
+    transform: translateY(-1000px);
     transition: transform 1s ease-out;
 }
 
@@ -200,6 +200,23 @@ h2 {
 
 .skill-txt {
     display: none;
+}
+
+.hard-skills-container,
+.soft-skills-container {
+    margin: 2% 0px;
+}
+
+.soft-skills-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.soft-skills-container span {
+    align-items: center;
+    justify-content: center;
+    padding: 20px 40px;
 }
 
 .light-background {
@@ -415,11 +432,17 @@ footer p:first-of-type {
 
     .hard-skills-container {
         grid-template-columns: auto auto auto auto;
+        width: 80%;
+        justify-content: center;
     }
 
     .hard-skills-container span {
         width: 70px;
         height: 70px;
+    }
+
+    .soft-skills-container {
+        width: 350px;
     }
 
     .education-container {
@@ -461,15 +484,16 @@ footer p:first-of-type {
         width: 45%;
     }
 
-    h2 {
-        font-size: 1em;
-    }
-
     .hard-skills-container {
         display: flex;
         flex-direction: column;
         width: 100%;
         align-items: center;
+    }
+
+    .hard-skills-container,
+    .soft-skills-container {
+        margin: 10% 0px;
     }
 
     .skill {
@@ -500,6 +524,22 @@ footer p:first-of-type {
         display: flex;
         margin-bottom: 20px;
         font-weight: 900;
+    }
+
+    .soft-skills-container {
+        width: 350px;
+        align-items: center;
+    }
+
+    .soft-skills-container span {
+        width: 100px;
+        height: 100px;
+        padding: 30px;
+        border-radius: 50%;
+        width: 200px;
+        padding: 30px 30px;
+        border-radius: 50%;
+
     }
 
     .education-container {

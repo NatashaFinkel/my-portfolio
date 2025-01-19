@@ -1,7 +1,10 @@
 import hardSkills from './hardSkills.json';
+import softSkills from './softSkills.json';
 
 export default function displayHardSkills() {
     const hardSkillsContainer = document.getElementById('hard-skills-container');
+    const softSkillsContainer = document.getElementById('soft-skills-container');
+
     hardSkills.forEach(skill => {
         const span = document.createElement('span');
         span.classList.add('skill');
@@ -21,6 +24,14 @@ export default function displayHardSkills() {
         span.classList.add('tooltip-container');
 
         hardSkillsContainer.appendChild(span);
+    });
+
+    softSkills.forEach(skill => {
+        const span = document.createElement('span');
+        span.classList.add('skill');
+        span.classList.add('soft-skill');
+        span.appendChild(document.createTextNode(skill.title));
+        softSkillsContainer.appendChild(span);
     });
 
     const skills = document.querySelectorAll(".skill");
