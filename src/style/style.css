@@ -97,7 +97,7 @@ main {
     flex-direction: column;
     text-align: center;
     align-items: center;
-    margin: 20px 0px 25%
+    margin: 20px 0px 70px;
 }
 
 section {
@@ -124,6 +124,12 @@ h2 {
     justify-self: center;
     width: 32%;
     text-align: left;
+}
+
+.skills-containers {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .hard-skills-container {
@@ -195,11 +201,6 @@ h2 {
 
 .skill-txt {
     display: none;
-}
-
-.hard-skills-container,
-.soft-skills-container {
-    margin: 2% 0px;
 }
 
 .soft-skills-container {

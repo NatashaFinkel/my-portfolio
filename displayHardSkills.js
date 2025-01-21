@@ -22,7 +22,6 @@ export default function displayHardSkills() {
         tooltip.textContent = skill.name;
         span.appendChild(tooltip);
         span.classList.add('tooltip-container');
-
         hardSkillsContainer.appendChild(span);
     });
 
