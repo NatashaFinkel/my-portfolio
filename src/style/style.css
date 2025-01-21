@@ -67,13 +67,8 @@ a {
     text-decoration: none;
 }
 
-h1 {
-    margin-top: 0px;
-}
-
 .sous-titre {
-    margin-top: 10px;
-    margin-bottom: 40px;
+    margin-top: 0px;
 }
 
 .media {
@@ -102,7 +97,7 @@ main {
     flex-direction: column;
     text-align: center;
     align-items: center;
-    margin-bottom: 25%;
+    margin: 20px 0px 25%
 }
 
 section {
@@ -404,6 +399,7 @@ footer p:first-of-type {
 
     h1 {
         font-size: 30px;
+        margin-top: 30px;
     }
 
     .error-img {
