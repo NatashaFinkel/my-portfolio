@@ -42,4 +42,4 @@ export default function displayHardSkills() {
         }, index * 400);
         timeouts.push(timeout);
     });
-}
+} 

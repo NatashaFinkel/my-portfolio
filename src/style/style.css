@@ -213,10 +213,8 @@ h2 {
     gap: 30px;
 }
 
-.soft-skills-container span {
-    align-items: center;
-    justify-content: center;
-    padding: 20px 40px;
+.soft-skill {
+    padding: 15px 50px;
 }
 
 .light-background {
@@ -441,8 +439,8 @@ footer p:first-of-type {
         height: 70px;
     }
 
-    .soft-skills-container {
-        width: 350px;
+    .soft-skill {
+        padding: 9px;
     }
 
     .education-container {
@@ -529,17 +527,6 @@ footer p:first-of-type {
     .soft-skills-container {
         width: 350px;
         align-items: center;
-    }
-
-    .soft-skills-container span {
-        width: 100px;
-        height: 100px;
-        padding: 30px;
-        border-radius: 50%;
-        width: 200px;
-        padding: 30px 30px;
-        border-radius: 50%;
-
     }
 
     .education-container {
