@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import displayHardSkills from '../../displayHardSkills';
 
-const HardSkillComponent = () => {
+const SkillsComponent = () => {
     useEffect(() => {
         const timeoutId = setTimeout(() => {
             const pageURL = window.location;
@@ -25,4 +25,4 @@ const HardSkillComponent = () => {
     );
 };
 
-export default HardSkillComponent;
+export default SkillsComponent;

@@ -1,9 +1,9 @@
-import HardSkillComponent from '../components/HardSkillComponent';
+import SkillsComponent from '../components/SkillsComponent';
 
 function SkillsPage() {
     return (
         <main>
-            <HardSkillComponent />
+            <SkillsComponent />
         </main>
     )
 };
