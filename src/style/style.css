@@ -51,6 +51,7 @@ li {
 
 li .active {
     color: black;
+    pointer-events: none;
 }
 
 .nav-bar-icon {
@@ -111,9 +112,15 @@ section {
     justify-self: center;
 }
 
+.h2-div {
+    background-color: white;
+    border: black 2px dashed;
+    margin: 50px 0px;
+}
+
 h2 {
-    text-decoration: underline;
-    justify-self: center;
+    margin: 0px;
+    padding: 5px 30px;
 }
 
 .about-me-container {
@@ -129,13 +136,17 @@ h2 {
 .skills-containers {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    align-items: center;
+}
+
+.container {
+    margin-bottom: 80px;
+    align-items: center;
 }
 
 .hard-skills-container {
     display: grid;
     grid-template-columns: auto auto auto auto auto auto;
-    justify-self: center;
     gap: 20px;
     width: 640px;
 }
@@ -155,11 +166,13 @@ h2 {
     background-color: white;
     color: black;
     box-shadow: 12px 15px 10px rgb(167, 167, 167);
-    transform: translateY(-1000px);
-    transition: transform 1s ease-out;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
 }
 
 .visible {
+    opacity: 1;
     transform: translateY(0);
 }
 
@@ -207,10 +220,12 @@ h2 {
     display: flex;
     flex-direction: column;
     gap: 30px;
+    width: 100%;
 }
 
 .soft-skill {
     padding: 15px 50px;
+    width: 100%;
 }
 
 .light-background {
@@ -358,7 +373,7 @@ footer p:first-of-type {
     }
 
     main {
-        padding-top: 8%;
+        margin-top: 100px;
     }
 
     ul {
@@ -393,14 +408,8 @@ footer p:first-of-type {
         gap: 0px;
     }
 
-    main {
-        top: 60px;
-        position: relative;
-    }
-
     h1 {
         font-size: 30px;
-        margin-top: 30px;
     }
 
     .error-img {
@@ -467,7 +476,11 @@ footer p:first-of-type {
     }
 
     main {
-        padding-top: 0px;
+        margin-top: 30px;
+    }
+
+    .h2-div {
+        margin-bottom: 0px;
     }
 
     .media {
@@ -489,15 +502,6 @@ footer p:first-of-type {
     .hard-skills-container,
     .soft-skills-container {
         margin: 10% 0px;
-    }
-
-    .skill {
-        transform: translateY(0);
-        opacity: 0;
-    }
-
-    .visible {
-        opacity: 1;
     }
 
     .hard-skills-container span {
