@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import displayDiplomaData from "../javaScript/displayDiplomaData";
 
-function EducationComponent() {
+function DiplomaComponent() {
     useEffect(() => {
         const timeoutId = setTimeout(() => {
             const pageURL = window.location;
@@ -21,4 +21,4 @@ function EducationComponent() {
     );
 }
 
-export default EducationComponent;
+export default DiplomaComponent;

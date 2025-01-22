@@ -1,4 +1,4 @@
-import EducationComponent from "../components/EducationComponent";
+import EducationComponent from "../components/DiplomaComponent";
 
 function FormationPage() {
   function getToPastjobsPage() {
