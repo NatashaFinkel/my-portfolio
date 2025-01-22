@@ -1,5 +1,5 @@
-import React from 'react';
-import AppNavLink from './NavLink';
+import React from "react";
+import AppNavLink from "./NavLink";
 
 function NavBar() {
   //  le rendu est conditionel :
@@ -57,7 +57,6 @@ function NavBar() {
                 navLinkTxt="Expérience professionnelle"
               />
             </li>
-
           </ul>
         </nav>
       </div>

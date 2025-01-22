@@ -1,8 +1,7 @@
-import React, { useEffect } from 'react';
-import displayEducationData from '../../displayEducationData';
+import React, { useEffect } from "react";
+import displayEducationData from "../../displayEducationData";
 
 function EducationComponent() {
-
     useEffect(() => {
         const timeoutId = setTimeout(() => {
             const pageURL = window.location;
@@ -17,10 +16,9 @@ function EducationComponent() {
 
     return (
         <section className="light-background">
-            <div className="education-container" id="education-container">
-            </div>
+            <div className="education-container" id="education-container"></div>
         </section>
-    )
-};
+    );
+}
 
 export default EducationComponent;

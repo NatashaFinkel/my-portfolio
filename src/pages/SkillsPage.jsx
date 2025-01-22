@@ -1,4 +1,4 @@
-import SkillsComponent from '../components/SkillsComponent';
+import SkillsComponent from "../components/SkillsComponent";
 
 function SkillsPage() {
     return (
@@ -6,10 +6,9 @@ function SkillsPage() {
             <div>
                 <h1>Ma trousse à outils</h1>
             </div>
-
             <SkillsComponent />
         </main>
-    )
-};
+    );
+}
 
 export default SkillsPage;

@@ -1,5 +1,5 @@
-import React, { useEffect } from 'react';
-import displaySkills from '../../displaySkills';
+import React, { useEffect } from "react";
+import displaySkills from "../../displaySkills";
 
 const SkillsComponent = () => {
     useEffect(() => {
@@ -15,16 +15,22 @@ const SkillsComponent = () => {
     }, []);
 
     return (
-        <div className='skills-containers'>
-            <div className='h2-div'>
+        <div className="skills-containers">
+            <div className="h2-div">
                 <h2>HardSkills</h2>
             </div>
-            <div className="container hard-skills-container" id="hard-skills-container"></div>
+            <div
+                className="container hard-skills-container"
+                id="hard-skills-container"
+            ></div>
 
-            <div className='h2-div'>
+            <div className="h2-div">
                 <h2>SoftSkills</h2>
             </div>
-            <div className="container soft-skills-container" id="soft-skills-container"></div>
+            <div
+                className="container soft-skills-container"
+                id="soft-skills-container"
+            ></div>
         </div>
     );
 };
