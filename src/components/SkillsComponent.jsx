@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import displaySkills from "../../displaySkills";
+import displaySkills from "../javaScript/displaySkills";
 
 const SkillsComponent = () => {
     useEffect(() => {

@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import displayEducationData from "../../displayEducationData";
+import displayEducationData from "../javaScript/displayEducationData";
 
 function EducationComponent() {
     useEffect(() => {

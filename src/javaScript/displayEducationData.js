@@ -1,4 +1,4 @@
-import diplomas from './diplomas.json';
+import diplomas from "../json/diplomas.json";
 
 export default function displayEducationData() {
     const educationContainer = document.getElementById('education-container');

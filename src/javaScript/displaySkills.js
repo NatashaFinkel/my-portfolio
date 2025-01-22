@@ -1,5 +1,5 @@
-import hardSkills from './hardSkills.json';
-import softSkills from './softSkills.json';
+import hardSkills from "../json/hardSkills.json";
+import softSkills from "../json/softSkills.json";
 
 export default function displaySkills() {
     const hardSkillsContainer = document.getElementById('hard-skills-container');
