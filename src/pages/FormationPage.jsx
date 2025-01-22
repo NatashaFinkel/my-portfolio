@@ -1,4 +1,4 @@
-import EducationComponent from "../components/DiplomaComponent";
+import DiplomaComponent from "../components/DiplomaComponent";
 
 function FormationPage() {
   function getToPastjobsPage() {
@@ -29,7 +29,7 @@ function FormationPage() {
           </button>
         </p>
       </div>
-      <EducationComponent />
+      <DiplomaComponent />
     </main>
   );
 }
