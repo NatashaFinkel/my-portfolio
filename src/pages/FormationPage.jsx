@@ -1,7 +1,8 @@
+import EducationComponent from "../components/EducationComponent";
 function FormationPage() {
     return (
         <main>
-            <h1>Page Formation !</h1>
+            <EducationComponent />
         </main>
     )
 }
