@@ -1,6 +1,6 @@
 import diplomas from "../json/diplomas.json";
 
-export default function displayEducationData() {
+export default function displayDiplomaData() {
     const educationContainer = document.getElementById('education-container');
 
     diplomas.forEach(diploma => {

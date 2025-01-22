@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import displayEducationData from "../javaScript/displayEducationData";
+import displayDiplomaData from "../javaScript/displayDiplomaData";
 
 function EducationComponent() {
     useEffect(() => {
@@ -8,7 +8,7 @@ function EducationComponent() {
             const currentPage = pageURL.pathname;
 
             if (currentPage === "/my-portfolio/formation") {
-                displayEducationData();
+                displayDiplomaData();
             }
         }, 1);
         return () => clearTimeout(timeoutId);
