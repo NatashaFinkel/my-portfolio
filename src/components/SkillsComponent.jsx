@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import displaySkills from "../javaScript/displaySkills";
+import displaySkillData from "../javaScript/displaySkillData";
 
 const SkillsComponent = () => {
     useEffect(() => {
@@ -8,7 +8,7 @@ const SkillsComponent = () => {
             const currentPage = pageURL.pathname;
 
             if (currentPage === "/my-portfolio/skills") {
-                displaySkills();
+                displaySkillData();
             }
         }, 1);
         return () => clearTimeout(timeoutId);
