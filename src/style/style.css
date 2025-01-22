@@ -121,6 +121,7 @@ section {
 h2 {
     margin: 0px;
     padding: 5px 30px;
+    font-size: 20px;
 }
 
 .about-me-container {
@@ -235,18 +236,18 @@ h2 {
 .education-container {
     width: 633px;
     margin: 0 auto;
-    box-shadow: 15px 20px 15px 0px grey;
 }
 
 .row {
     display: flex;
     justify-content: center;
     background-color: white;
-    border: 5px solid navy;
+    box-shadow: 15px 20px 15px 0px grey;
 }
 
 .row:first-of-type {
     border-bottom: none;
+    margin-bottom: 50px;
 }
 
 .year {
@@ -256,10 +257,8 @@ h2 {
     font-size: 24px;
     align-items: center;
     justify-content: center;
-    border-right: 1px solid black;
     padding: 0px 20px;
     border-right: 3px solid navy;
-    border-right: 5px solid navy;
 }
 
 .details {
@@ -273,11 +272,16 @@ h2 {
 
 .formation-detail {
     margin: 0px;
-    font-weight: 900;
+    text-decoration: underline;
 }
 
-.details h3 {
+.details h2 {
     margin: 0 0 10px;
+}
+
+.formation-txt-div {
+    width: 40%;
+    line-height: 30px;
 }
 
 footer {
@@ -449,6 +453,10 @@ footer p:first-of-type {
         padding: 9px;
     }
 
+    .formation-txt-div {
+        width: 60%;
+    }
+
     .education-container {
         width: 396px;
     }
@@ -544,7 +552,7 @@ footer p:first-of-type {
         margin-top: 5%;
     }
 
-    .details h3 {
+    .details h2 {
         text-align: center;
     }
 
