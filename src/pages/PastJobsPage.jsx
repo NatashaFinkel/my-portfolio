@@ -1,4 +1,4 @@
-function PastJobsPage() {
+export default function PastJobsPage() {
     return (
         <main>
             <h1>Expérience professionnelle</h1>
@@ -6,5 +6,3 @@ function PastJobsPage() {
         </main>
     );
 }
-
-export default PastJobsPage;
