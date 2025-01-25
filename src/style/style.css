@@ -366,6 +366,33 @@ footer p:first-of-type {
     color: black;
 }
 
+.past-jobs-container {
+    display: flex;
+    justify-content: center;
+    gap: 6%;
+}
+
+.card {
+    background: #fff;
+    padding: 20px;
+    text-align: center;
+    padding: 20px;
+    max-width: 30%;
+    box-shadow: 15px 20px 15px 0px grey;
+}
+
+.card h3 {
+    font-size: 17px;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+
+.card p {
+    font-size: 17px;
+    line-height: 1.5;
+    margin: 10px 0 20px;
+}
+
 /* Tablettes */
 @media screen and (max-width: 768px) {
 
@@ -461,6 +488,10 @@ footer p:first-of-type {
         width: 396px;
     }
 
+    .card h3 {
+        font-size: 15px;
+    }
+
     .contact-container {
         align-items: center;
     }
@@ -472,6 +503,10 @@ footer p:first-of-type {
 
 /* Téléphones (grands) */
 @media screen and (max-width: 425px) {
+
+    h1 {
+        font-size: 25px;
+    }
 
     header {
         top: auto;
@@ -554,6 +589,17 @@ footer p:first-of-type {
 
     .details h2 {
         text-align: center;
+    }
+
+    .past-jobs-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        max-width: 60%;
+        padding: 0px 10px;
+        margin-top: 50px;
     }
 
     footer {
