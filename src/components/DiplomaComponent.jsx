@@ -15,7 +15,7 @@ function DiplomaComponent() {
     }, []);
 
     return (
-        <section className="light-background">
+        <section>
             <div className="education-container" id="education-container"></div>
         </section>
     );

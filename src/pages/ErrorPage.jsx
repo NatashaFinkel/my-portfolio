@@ -17,11 +17,8 @@ function ErrorPage() {
     return (
         <main>
             <h1>OOPS !</h1>
-            <span className="error-txt-div">
-                <p>La page que vous cherchez n'existe pas !</p>
-            </span>
-
             <div className="error-txt-div">
+                <p>La page que vous cherchez n'existe pas !</p>
                 <p>
                     Vous pouvez retourner à la page d'accueil en cliquant
                     <button
