@@ -1,16 +1,16 @@
 [
     {
-        "job": "Gestion, accueil client, vente et encaissement",
-        "company": "Florence Kahn",
-        "location": "75004 Paris, France",
-        "contract": "CDI",
-        "dates": "janv. 2014 - janv. 2022 (8 ans 1 mois)"
+        "jobTitle": "Responsable de magasin en autonomie",
+        "company": "Entreprise : Chocolaterie Beussent Lachelle",
+        "location": "75006 Paris, France",
+        "description": "Mission en intérim (7 semaines)",
+        "dates": "févr. 2022 - mars 2022"
     },
     {
-        "job": "Responsable de magasin en autonomie",
-        "company": "Chocolaterie Beussent Lachelle",
-        "location": "75006 Paris, France",
-        "contract": "intérim en CDD",
-        "dates": "févr. 2022 - mars 2022 (7 semaines)"
+        "jobTitle": "Gestion, accueil client, vente et encaissement",
+        "company": "Entreprise : Florence Kahn (boulangerie pâtisserie traiteur)",
+        "location": "75004 Paris, France",
+        "description": "CDI (8 ans 1 mois)",
+        "dates": "janv. 2014 - janv. 2022"
     }
 ]
