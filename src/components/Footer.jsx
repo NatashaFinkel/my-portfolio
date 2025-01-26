@@ -24,7 +24,7 @@ function Footer() {
                         32 rue des Rosiers, <br></br>75004 Paris.
                     </p>
                     <b>06 24 25 07 18</b>
-                    <span>
+                    <span className="media">
                         <a href="mailto:nfinkelsztajn@gmail.com" target="_blank">
                             nfinkelsztajn@gmail.com
                         </a>

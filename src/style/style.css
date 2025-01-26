@@ -97,8 +97,8 @@ a {
 }
 
 .media {
-    width: 205px;
-    justify-self: center;
+    min-width: 205px;
+    text-align: center;
     border: 1px solid var(--primary-color);
     padding: 10px;
     box-sizing: content-box;
@@ -129,13 +129,15 @@ main {
 
 section {
     margin: 5% 0px;
+    display: var(--primary-display);
+    flex-direction: var(--primary-direction);
+    align-items: center;
 }
 
 .contact-page-main-container {
     display: var(--primary-display);
-    justify-content: space-between;
-    width: 75%;
-    justify-self: center;
+    justify-content: center;
+    gap: 20%
 }
 
 .h2-div {
@@ -347,15 +349,11 @@ footer p:first-of-type {
 
 .contact-container a {
     color: var(--primary-color);
-    text-decoration: underline;
 }
 
 .contact-container span {
     background-color: white;
-    padding: 10px 10px;
-    font-weight: 900;
     margin-top: 30px;
-    box-shadow: var(--primary-box-shadow);
 }
 
 .contact-container span:hover {
@@ -468,17 +466,7 @@ footer p:first-of-type {
     }
 
     .contact-page-main-container {
-        width: 80%;
         flex-direction: var(--primary-direction);
-    }
-
-    .media {
-        width: 140px;
-        padding: 5px;
-    }
-
-    .media a {
-        padding: 0px;
     }
 
     .h2-div {
@@ -519,10 +507,6 @@ footer p:first-of-type {
     .contact-container {
         align-items: center;
     }
-
-    .contact-container span {
-        width: fit-content;
-    }
 }
 
 /* Téléphones (grands) */
@@ -548,11 +532,6 @@ footer p:first-of-type {
 
     .h2-div {
         margin-bottom: 0px;
-    }
-
-    .media {
-        width: 140px;
-        padding: 10px 5px;
     }
 
     .about-me-container {
@@ -626,11 +605,7 @@ footer p:first-of-type {
     }
 
     footer {
-        margin-bottom: 57px;
-    }
-
-    .contact-container span {
-        padding: 10px 5px;
+        margin-bottom: 100px;
     }
 
     .nav-bar-div {
