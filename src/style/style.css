@@ -411,6 +411,30 @@ footer p:first-of-type {
     margin: 10px 0 20px;
 }
 
+.projectPage-main-container {
+    display: flex;
+    gap: 30px;
+    width: 600px;
+    max-width: 90%;
+    justify-content: space-between;
+}
+
+.project-container {
+    width: 150px;
+    height: 150px;
+}
+
+.project-img {
+    height: 100%;
+}
+
+.openClassRooms {
+    position: relative;
+    width: 100px;
+    bottom: 155px;
+    right: 25px;
+}
+
 /* Tablettes */
 @media screen and (max-width: 768px) {
 
@@ -506,6 +530,20 @@ footer p:first-of-type {
 
     .contact-container {
         align-items: center;
+    }
+
+    .projectPage-main-container {
+        width: 500px;
+    }
+
+    .project-container {
+        width: 100px;
+        height: 100px;
+    }
+
+    .openClassRooms {
+        width: 50px;
+        bottom: 108px;
     }
 }
 
@@ -614,5 +652,22 @@ footer p:first-of-type {
 
     ul {
         max-width: 400px;
+    }
+
+    .projectPage-main-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .project-container {
+        width: 200px;
+        height: 200px;
+    }
+
+    .openClassRooms {
+        bottom: 204px;
+        right: 50px;
+        width: 100px;
     }
 }

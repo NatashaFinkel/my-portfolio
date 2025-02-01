@@ -1,14 +1,26 @@
-import wildFlowersProjectImg from '/assets/fleurs-sauvages.webp';
-import cutePetProjectImg from '/assets/cute-pet-project.png';
-import ninaCarducciProject from '/assets/camera.webp';
-import logoOpenClassRooms from '/assets/logo-openClassRooms.webp';
+import { useEffect } from "react";
+import displayProjectsData from "../javaScript/displayProjectData";
 
 function ProjectsPage() {
+    useEffect(() => {
+        const timeoutId = setTimeout(() => {
+            const pageURL = window.location;
+            const currentPage = pageURL.pathname;
+
+            if (currentPage === "/my-portfolio/projects") {
+                displayProjectsData();
+            }
+        }, 1);
+        return () => clearTimeout(timeoutId);
+    }, []);
+
+
     return (
         <main>
             <h1>Mes projets</h1>
-            <div className="projects-container" id="projects-container"></div>
-        </main>
+            <div className="projectPage-main-container" id="projectPage-main-container">
+            </div>
+        </main >
     );
 }
 
