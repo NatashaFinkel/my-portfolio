@@ -1,0 +1,20 @@
+[
+    {
+        "id": "ninaCarducci-project",
+        "src": "./assets/camera.webp",
+        "alt": "appareil photo",
+        "additionalImgSrc": "./assets/logo-openClassRooms.webp",
+        "additionalImgClassName": "openClassRooms",
+        "additionalImgAlt": "logo d'OpenClassRooms"
+    },
+    {
+        "id": "cute-pet-project",
+        "src": "./assets/cute-pet-project.png",
+        "alt": "logo du Cute Pet Projet"
+    },
+    {
+        "id": "wildFlowers-project",
+        "src": "./assets/fleurs-sauvages.webp",
+        "alt": "logo du wildFlowers Projet"
+    }
+]
