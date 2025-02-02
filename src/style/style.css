@@ -414,14 +414,16 @@ footer p:first-of-type {
 .projectPage-main-container {
     display: flex;
     gap: 30px;
-    width: 600px;
-    max-width: 90%;
     justify-content: space-between;
 }
 
 .project-container {
     width: 150px;
     height: 150px;
+}
+
+#wildFlowers-project {
+    background-color: white;
 }
 
 .project-img {
@@ -433,6 +435,7 @@ footer p:first-of-type {
     width: 100px;
     bottom: 155px;
     right: 25px;
+    border: 1px solid var(--primary-color);
 }
 
 /* Tablettes */
@@ -533,7 +536,8 @@ footer p:first-of-type {
     }
 
     .projectPage-main-container {
-        width: 500px;
+        width: 400px;
+        flex-wrap: wrap;
     }
 
     .project-container {
