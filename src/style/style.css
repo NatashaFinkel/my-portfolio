@@ -158,7 +158,7 @@ h2 {
     justify-content: center;
     gap: 20px;
     justify-self: center;
-    width: 32%;
+    width: 50%;
     text-align: left;
 }
 
@@ -438,15 +438,14 @@ footer p:first-of-type {
 
 .modal-content {
     background-color: #fff;
-    padding: 20px;
     border-radius: 8px;
-    width: 80%;
-    max-width: 600px;
+    width: 45%;
     margin: auto;
 }
 
 .modal-content h3 {
-    margin: 50px 0px;
+    padding: 50px;
+    font-size: 20px;
 }
 
 .close {
@@ -454,8 +453,9 @@ footer p:first-of-type {
     float: right;
     font-size: 28px;
     font-weight: bold;
-    right: 15px;
+    right: 35px;
     position: relative;
+    top: 20px;
 }
 
 .close:hover,
@@ -489,10 +489,27 @@ footer p:first-of-type {
     text-align: left;
 }
 
+.project-description,
+.skills-div,
+.links-div {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    align-self: center;
+}
+
+.modal-txt-heading {
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
 .links-div {
     justify-content: center;
     display: flex;
-    gap: 100px;
+    gap: 10px;
     margin: 30px 0px;
 }
 
@@ -504,7 +521,6 @@ footer p:first-of-type {
 
 .modal-link-btn:hover {
     background-color: white;
-
 }
 
 /* Tablettes */
@@ -615,8 +631,13 @@ footer p:first-of-type {
     }
 
     .openClassRooms {
-        width: 50px;
-        bottom: 108px;
+        width: 70px;
+        bottom: 104px;
+        right: 15px;
+    }
+
+    .modal-txt-heading {
+        font-size: 17px;
     }
 
     .links-div {

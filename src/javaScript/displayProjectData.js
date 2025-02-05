@@ -54,6 +54,10 @@ export default function displayProjectsData() {
 
         const descriptionDiv = document.createElement('div');
         descriptionDiv.classList.add('project-description');
+        const descriptionHeading = document.createElement('p');
+        descriptionHeading.classList.add('modal-txt-heading');
+        descriptionHeading.textContent = "Objectif :";
+        descriptionDiv.appendChild(descriptionHeading);
         const descriptionP = document.createElement('p');
         descriptionP.textContent = project.description;
         descriptionDiv.appendChild(descriptionP);
@@ -61,6 +65,10 @@ export default function displayProjectsData() {
 
         const skillsDiv = document.createElement('div');
         skillsDiv.classList.add('skills-div');
+        const skillsHeading = document.createElement('p');
+        skillsHeading.classList.add('modal-txt-heading');
+        skillsHeading.textContent = "Compétences :";
+        skillsDiv.appendChild(skillsHeading);
         const skillsP = document.createElement('p');
         skillsP.textContent = project.skills;
         skillsDiv.appendChild(skillsP);
