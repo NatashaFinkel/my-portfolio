@@ -636,6 +636,10 @@ footer p:first-of-type {
         right: 15px;
     }
 
+    .modal-content {
+        width: 70%;
+    }
+
     .modal-txt-heading {
         font-size: 17px;
     }
@@ -768,5 +772,9 @@ footer p:first-of-type {
         bottom: 204px;
         right: 50px;
         width: 100px;
+    }
+
+    .modal-content {
+        width: 80%;
     }
 }
