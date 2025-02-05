@@ -78,7 +78,7 @@ export default function displayProjectsData() {
         linksDiv.classList.add('links-div');
 
         const projectLink = document.createElement('button');
-        projectLink.textContent = 'Le projet';
+        projectLink.textContent = 'Le code (GitHub)';
         projectLink.classList.add('modal-link-btn');
         projectLink.addEventListener('click', () => {
             window.open(project.GitHubLink);
