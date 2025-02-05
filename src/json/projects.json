@@ -4,7 +4,7 @@
         "src": "./assets/camera.webp",
         "alt": "appareil photo",
         "title": "Optimisation du référencement",
-        "description": "Objectif : identifier les faiblesses d’un site web, résoudre ses dysfonctionnements et l’optimiser au maximum.",
+        "description": "identifier les faiblesses d’un site web, résoudre ses dysfonctionnements et l’optimiser au maximum.",
         "skills": "Optimisation des performances, accessibilité, SEO, référencement local, réalisation d’audits (LighHouse, Wave, Rich Snippet).",
         "GitHubLink": "https://github.com/NatashaFinkel/Projet-9",
         "pdfLink": "./assets/Rapport-optimisation.pdf",
@@ -17,7 +17,7 @@
         "src": "./assets/bank-tree.jpeg",
         "alt": "pot de pièces",
         "title": "ArgentBank",
-        "description": "Objectif : intégration du front-end avec le back-end via des appels API, écriture d’appels API, écriture de routes (Swagger), optimisation de code et SEO.",
+        "description": "intégration du front-end avec le back-end via des appels API, écriture d’appels API, écriture de routes (Swagger), optimisation de code et SEO.",
         "skills": "React, Redux, Redux Toolkit, React Router, Create-React-App, Swagger.",
         "GitHubLink": "https://github.com/NatashaFinkel/P-11-version-2",
         "additionalImgSrc": "./assets/logo-openClassRooms.webp",
@@ -29,7 +29,7 @@
         "src": "./assets/cute-pet-project.png",
         "alt": "logo du Cute Pet Projet",
         "title": "The Cute Pet Project",
-        "description": "Projet «hors-formation» : site-vitrine d’une association de défense des animaux.",
+        "description": "site-vitrine d’une association de défense des animaux (projet «hors-formation»).",
         "skills": "TypeScript (génération dynamique), vite, jest, responsivity, Git, GitHub.",
         "GitHubLink": "https://natashafinkel.github.io/cute-pet-project/"
     },
@@ -38,7 +38,7 @@
         "src": "./assets/fleurs-sauvages.webp",
         "alt": "logo du wildFlowers Projet",
         "title": "Le jardin aux fleurs sauvages",
-        "description": "Projet «hors-formation» : site-vitrine d’un fleuriste.",
+        "description": "site-vitrine d’un fleuriste (projet «hors-formation»).",
         "skills": "React, Redux, Redux Toolkit, React router, vite, jest, Git, GitHub",
         "GitHubLink": "https://natashafinkel.github.io/The-flower-power-project/"
     }
