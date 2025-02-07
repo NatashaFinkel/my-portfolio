@@ -34,13 +34,7 @@ function NavBar() {
                 navLinkTxt="Projets"
               />
             </li>
-            <li>
-              <AppNavLink
-                navLinkDirection="/formation"
-                navLinkActiveclassname="active"
-                navLinkTxt="Formation"
-              />
-            </li>
+           
 
             <li>
               <AppNavLink
@@ -52,10 +46,8 @@ function NavBar() {
 
             <li>
               <AppNavLink
-                navLinkDirection="/past-jobs"
                 navLinkDirection="/mon-parcours"
                 navLinkActiveclassname="active"
-                navLinkTxt="Expérience professionnelle"
                 navLinkTxt="Mon parcours"
               />
             </li>

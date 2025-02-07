@@ -4,9 +4,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import HomePage from "../pages/homePage";
 import MyJourneyPage from "../pages/MyJourneyPage";
 import ProjectsPage from "../pages/ProjectsPage";
-import FormationPage from "../pages/FormationPage";
 import SkillsPage from "../pages/SkillsPage";
-import PastJobsPage from "../pages/PastJobsPage";
 import ErrorPage from "../pages/ErrorPage";
 import NavBar from "./NavBar";
 
@@ -17,10 +15,8 @@ const AppRouter = () => {
             <Routes>
                 <Route path="/" element={<HomePage />} />
                 <Route path="projects" element={<ProjectsPage />} />
-                <Route path="formation" element={<FormationPage />} />
                 <Route path="mon-parcours" element={<MyJourneyPage />} />
                 <Route path="/skills" element={<SkillsPage />} />
-                <Route path="/past-jobs" element={<PastJobsPage />} />
                 <Route path="*" element={<ErrorPage />} />
             </Routes>
         </Router>
