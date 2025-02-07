@@ -90,10 +90,10 @@ export default function displayProjectsData() {
 
 
         const projectLink = document.createElement('button');
-        projectLink.textContent = 'Le code (GitHub)';
+        projectLink.textContent = 'Code-source';
         projectLink.classList.add('modal-link-btn');
         projectLink.addEventListener('click', () => {
-            window.open(project.GitHubLink);
+            window.open(project.codeLink);
         });
 
         linksDiv.appendChild(projectLink);

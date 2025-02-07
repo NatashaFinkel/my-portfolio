@@ -6,7 +6,7 @@
         "title": "Optimisation du référencement",
         "description": "identifier les faiblesses d’un site web, résoudre ses dysfonctionnements et l’optimiser au maximum.",
         "skills": "Optimisation des performances, accessibilité, SEO, référencement local, réalisation d’audits (LighHouse, Wave, Rich Snippet).",
-        "GitHubLink": "https://github.com/NatashaFinkel/Projet-9",
+        "codeLink": "https://github.com/NatashaFinkel/Projet-9",
         "pdfLink": "./assets/Rapport-optimisation.pdf",
         "demoLink": "https://natashafinkel.github.io/Projet-9/",
         "additionalImgSrc": "./assets/logo-openClassRooms.webp",
@@ -20,7 +20,7 @@
         "title": "ArgentBank",
         "description": "intégration du front-end avec le back-end via des appels API, écriture d’appels API, écriture de routes (Swagger), optimisation de code et SEO.",
         "skills": "React, Redux, Redux Toolkit, React Router, Create-React-App, Swagger.",
-        "GitHubLink": "https://github.com/NatashaFinkel/P-11-version-2",
+        "codeLink": "https://github.com/NatashaFinkel/P-11-version-2",
         "additionalImgSrc": "./assets/logo-openClassRooms.webp",
         "additionalImgClassName": "openClassRooms",
         "additionalImgAlt": "logo d'OpenClassRooms"
@@ -32,7 +32,7 @@
         "title": "The Cute Pet Project",
         "description": "site-vitrine d’une association de défense des animaux (projet «hors-formation»).",
         "skills": "TypeScript (génération dynamique), vite, jest, responsivity, Git, GitHub.",
-        "GitHubLink": "https://natashafinkel.github.io/cute-pet-project/"
+        "codeLink": "https://natashafinkel.github.io/cute-pet-project/",
         "demoLink": "https://natashafinkel.github.io/cute-pet-project/"
     },
     {
@@ -42,7 +42,7 @@
         "title": "Le jardin aux fleurs sauvages",
         "description": "site-vitrine d’un fleuriste (projet «hors-formation»).",
         "skills": "React, Redux, Redux Toolkit, React router, vite, jest, Git, GitHub",
-        "GitHubLink": "https://natashafinkel.github.io/The-flower-power-project/"
+        "codeLink": "https://github.com/NatashaFinkel/The-flower-power-project",
         "demoLink": "https://natashafinkel.github.io/The-flower-power-project/"
     }
 ]
