@@ -88,7 +88,6 @@ export default function displayProjectsData() {
             linksDiv.appendChild(demoLink);
         }
 
-
         const projectLink = document.createElement('button');
         projectLink.textContent = 'Code-source';
         projectLink.classList.add('modal-link-btn');
@@ -97,7 +96,6 @@ export default function displayProjectsData() {
         });
 
         linksDiv.appendChild(projectLink);
-        modalMainDiv.appendChild(linksDiv);
 
         const pdfLink = document.createElement('button');
         pdfLink.textContent = 'Rapport d\'optimisation';
@@ -114,6 +112,7 @@ export default function displayProjectsData() {
             modal.style.display = 'flex';
         });
 
+        modalMainDiv.appendChild(linksDiv);
         modalContent.appendChild(modalMainDiv);
         modal.appendChild(modalContent);
         div.appendChild(modal);
