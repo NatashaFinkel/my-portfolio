@@ -32,12 +32,12 @@ export default function displayProjectsData() {
         closeBtnSpan.id = "close-btn";
         closeBtnSpan.classList.add('close');
         closeBtnSpan.innerHTML = '&times;';
-
-        // FIXME :  ça ne marche pas ! 
-        /* closeBtnSpan.addEventListener('click', () => {
-                modal.style.display = 'none';
-            }); */
         modalContent.appendChild(closeBtnSpan);
+
+        closeBtnSpan.addEventListener('click', (event) => {
+            event.stopPropagation();
+            modal.style.display = 'none';
+        });
 
         window.addEventListener('click', (event) => {
             if (event.target === modal) {
