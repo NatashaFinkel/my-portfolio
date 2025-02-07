@@ -1,0 +1,30 @@
+[
+    {
+        "year": "2012",
+        "title": "BACCALAUREAT GENERAL",
+        "subTitle": "Série LITTERAIRE",
+        "school": "Institut du Marais-Charlemagne-Pollès (Paris, France)",
+        "description": "Session 2012, Académie de Paris."
+    },
+    {
+        "jobTitle": "GESTION, ACCUEIL CLIENT, VENTE ET ENCAISSEMENT",
+        "company": "Florence Kahn (boulangerie pâtisserie traiteur)",
+        "location": "75004 Paris, France",
+        "description": "CDI (8 ans 1 mois)",
+        "dates": "janv. 2014 - janv. 2022"
+    },
+    {
+        "jobTitle": "RESPONSABLE DE MAGASIN EN AUTONOMIE",
+        "company": "Chocolaterie Beussent Lachelle",
+        "location": "75006 Paris, France",
+        "description": "Mission en intérim (7 semaines)",
+        "dates": "févr. 2022 - mars 2022"
+    },
+    {
+        "year": "2025",
+        "title": "DÉVELOPPEUR INTÉGRATEUR WEB",
+        "subTitle": "RNCP 36076",
+        "school": "OpenClassRooms",
+        "description": "Formation enregistrée au RNCP, de niveau 5 (bac +2) sur les cadres français et européens des certifications (European Qualifications Framework)."
+    }
+]

@@ -30,6 +30,7 @@ body {
     max-width: 1440px;
     min-width: 400px;
     background-color: #fffae0;
+    font-size: 18px;
 }
 
 h1 {
@@ -144,6 +145,11 @@ a {
     font-weight: bold;
 }
 
+#j-1 {
+    gap: 20px;
+    padding: 0px 40px;
+}
+
 .sous-titre {
     margin-top: 0px;
 }
@@ -185,10 +191,8 @@ main {
 }
 
 section {
-    margin: 5% 0px;
     display: var(--primary-display);
-    flex-direction: var(--primary-direction);
-    align-items: center;
+    flex-wrap: wrap;
 }
 
 .contact-page-main-container {
@@ -207,6 +211,7 @@ h2 {
     margin: 0px;
     padding: 5px 30px;
     font-size: 20px;
+    font-size: 17px;
 }
 
 .about-me-container {
@@ -315,40 +320,28 @@ h2 {
 }
 
 .education-container {
-    width: 633px;
+    width: 50%;
     margin: 0 auto;
+    display: flex;
+    gap: 20px;
 }
 
 .row {
     display: var(--primary-display);
-    justify-content: center;
     background-color: white;
     box-shadow: var(--primary-box-shadow);
-}
-
-.row:first-of-type {
-    border-bottom: var(--secondary-display);
-    margin-bottom: 50px;
+    width: 270px;
 }
 
 .year {
     display: var(--primary-display);
-    width: 10%;
-    font-weight: bold;
-    font-size: 24px;
-    align-items: center;
-    justify-content: center;
-    padding: 0px 20px;
-    border-right: 3px solid navy;
+    padding: 5px 15px;
 }
 
 .details {
-    width: 90%;
     text-align: center;
-    display: var(--primary-display);
-    flex-direction: var(--primary-direction);
-    align-items: center;
-    padding: 20px;
+    padding: 20px 0px;
+    width: 70%;
 }
 
 .formation-detail {
@@ -360,10 +353,36 @@ h2 {
     margin: 0 0 10px;
 }
 
+.details p {
+    line-height: 28px;
+    margin: 10px 0px;
+}
+
 .formation-txt-div {
     width: 40%;
     line-height: 30px;
 }
+
+.row {
+    flex-direction: var(--primary-direction);
+    align-items: center;
+}
+
+.year {
+    border: 1px solid var(--primary-color);
+    margin-top: 5%;
+}
+
+.details h2 {
+    text-align: center;
+}
+
+.past-jobs-container {
+    align-items: center;
+    display: var(--primary-display);
+    justify-content: center;
+}
+
 
 .social-media-container {
     display: var(--primary-display);
@@ -440,12 +459,6 @@ footer p:first-of-type {
 .get-back-btn:hover {
     background-color: rgb(232, 232, 232);
     color: var(--primary-color);
-}
-
-.past-jobs-container {
-    display: var(--primary-display);
-    justify-content: center;
-    gap: 6%;
 }
 
 .card {
@@ -729,6 +742,11 @@ footer p:first-of-type {
         margin-top: 30px;
     }
 
+
+    #j-1 {
+        flex-direction: column;
+    }
+
     .h2-div {
         margin-bottom: 0px;
     }
@@ -777,26 +795,11 @@ footer p:first-of-type {
 
     .education-container {
         width: 259px;
+        flex-direction: column;
     }
 
-    .row {
-        flex-direction: var(--primary-direction);
-        align-items: center;
-    }
-
-    .year {
-        border: 1px solid var(--primary-color);
-        margin-top: 5%;
-    }
-
-    .details h2 {
-        text-align: center;
-    }
-
-    .past-jobs-container {
-        flex-direction: var(--primary-direction);
-        align-items: center;
-        gap: 40px;
+    .row:first-of-type {
+        margin-bottom: 50px;
     }
 
     .card {

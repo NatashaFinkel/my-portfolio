@@ -53,8 +53,10 @@ function NavBar() {
             <li>
               <AppNavLink
                 navLinkDirection="/past-jobs"
+                navLinkDirection="/mon-parcours"
                 navLinkActiveclassname="active"
                 navLinkTxt="Expérience professionnelle"
+                navLinkTxt="Mon parcours"
               />
             </li>
           </ul>
