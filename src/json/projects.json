@@ -8,6 +8,7 @@
         "skills": "Optimisation des performances, accessibilité, SEO, référencement local, réalisation d’audits (LighHouse, Wave, Rich Snippet).",
         "GitHubLink": "https://github.com/NatashaFinkel/Projet-9",
         "pdfLink": "./assets/Rapport-optimisation.pdf",
+        "demoLink": "https://natashafinkel.github.io/Projet-9/",
         "additionalImgSrc": "./assets/logo-openClassRooms.webp",
         "additionalImgClassName": "openClassRooms",
         "additionalImgAlt": "logo d'OpenClassRooms"
@@ -32,6 +33,7 @@
         "description": "site-vitrine d’une association de défense des animaux (projet «hors-formation»).",
         "skills": "TypeScript (génération dynamique), vite, jest, responsivity, Git, GitHub.",
         "GitHubLink": "https://natashafinkel.github.io/cute-pet-project/"
+        "demoLink": "https://natashafinkel.github.io/cute-pet-project/"
     },
     {
         "id": "wildFlowers-project",
@@ -41,5 +43,6 @@
         "description": "site-vitrine d’un fleuriste (projet «hors-formation»).",
         "skills": "React, Redux, Redux Toolkit, React router, vite, jest, Git, GitHub",
         "GitHubLink": "https://natashafinkel.github.io/The-flower-power-project/"
+        "demoLink": "https://natashafinkel.github.io/The-flower-power-project/"
     }
 ]

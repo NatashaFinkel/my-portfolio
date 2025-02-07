@@ -77,6 +77,18 @@ export default function displayProjectsData() {
         const linksDiv = document.createElement('div');
         linksDiv.classList.add('links-div');
 
+        const demoLink = document.createElement('button');
+        demoLink.textContent = 'Démo';
+        demoLink.classList.add('modal-link-btn');
+        demoLink.addEventListener('click', () => {
+            window.open(project.demoLink);
+        });
+
+        if (project.demoLink != undefined) {
+            linksDiv.appendChild(demoLink);
+        }
+
+
         const projectLink = document.createElement('button');
         projectLink.textContent = 'Le code (GitHub)';
         projectLink.classList.add('modal-link-btn');
