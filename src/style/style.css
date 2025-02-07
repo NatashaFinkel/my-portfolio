@@ -420,6 +420,7 @@ footer p:first-of-type {
 .project-container {
     width: 150px;
     height: 150px;
+    cursor: pointer;
 }
 
 .modal {
@@ -699,7 +700,7 @@ footer p:first-of-type {
 
     .hard-skills-img {
         height: 60px;
-        padding: 20px;
+        padding: 10px;
     }
 
     .tooltip-container:hover .tooltip {
