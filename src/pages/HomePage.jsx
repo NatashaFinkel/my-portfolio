@@ -1,19 +1,23 @@
+import AppNavLink from "../components/NavLink";
+
 function HomePage() {
     return (
-        <main>
-            <h1>Natasha Finkelsztajn</h1>
-            <p className="sous-titre">Développeur ReactJS</p>
+        <main className="l-2">
+            <h1 className="l-1">Natasha Finkelsztajn.<br />
+                <span className="typed">Développeur web,</span>
+                <br />
+                <span className="l-6">spécialiste React.js.</span>
+            </h1>
 
-            <section>
-                <h2>À propos de moi</h2>
-                <div className="about-me-container">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisi
-                        nulla, facilisis vel erat eget, porta tempor libero. Curabitur risus
-                        purus, aliquam sit leo.
-                    </p>
-                </div>
-            </section>
+            <div className="l-5">
+                <span className="l-3">
+                    <AppNavLink
+                        navLinkDirection="/projects"
+                        navLinkActiveclassname="active"
+                        navLinkTxt="Mes projets"
+                    />
+                </span>
+            </div>
         </main>
     );
 }
