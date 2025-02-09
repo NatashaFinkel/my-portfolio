@@ -4,12 +4,16 @@
 
     --primary-direction: column;
 
-    --primary-color: #000000;
+    --primary-color: #553314;
+    --secondary-color: #dd934e;
 
     --primary-percentage: 100%;
 
     --primary-box-shadow: 15px 20px 15px 0px grey;
-    --secondary-box-shadow: 10px 10px 10px 0px rgb(157, 157, 157);
+    --secondary-box-shadow: 10px 10px 10px 0px var(--primary-color);
+
+    --primary-border-style: 2px solid;
+    --secondary-border-style: 3px solid;
 }
 
 *,
