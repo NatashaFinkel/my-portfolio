@@ -209,15 +209,14 @@ section {
 }
 
 .h2-div {
-    background-color: white;
-    border: var(--primary-color) 2px dashed;
     margin-bottom: 50px;
+    background-color: #FFFDF1;
+    box-shadow: var(--secondary-box-shadow);
 }
 
 h2 {
     margin: 0px;
     padding: 5px 30px;
-    font-size: 20px;
     font-size: 17px;
 }
 
@@ -259,14 +258,14 @@ h2 {
 }
 
 .skill {
+    box-shadow: var(--secondary-box-shadow);
     display: var(--primary-display);
     flex-direction: var(--primary-direction);
-    background-color: white;
     color: var(--primary-color);
-    box-shadow: var(--primary-box-shadow);
     opacity: 0;
     transform: translateY(50px);
     transition: opacity 0.5s ease, transform 0.5s ease;
+    background-color: #FFFDF1;
 }
 
 .visible {
@@ -335,14 +334,21 @@ h2 {
 
 .row {
     display: var(--primary-display);
-    background-color: white;
-    box-shadow: var(--primary-box-shadow);
+    box-shadow: var(--secondary-box-shadow);
     width: 270px;
+    flex-direction: var(--primary-direction);
+    align-items: center;
+    background-color: #FFFDF1;
+    border: var(--primary-border-style);
 }
 
 .year {
     display: var(--primary-display);
     padding: 5px 15px;
+    font-weight: bold;
+    border: var(--primary-border-style) var(--secondary-color);
+    margin-top: 5%;
+    box-shadow: 10px 10px 10px 0px var(--secondary-color);
 }
 
 .details {
