@@ -460,15 +460,23 @@ footer p:first-of-type {
 }
 
 .projectPage-main-container {
-    display: flex;
-    gap: 30px;
-    justify-content: space-between;
+    gap: 80px;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
 }
 
 .project-container {
-    width: 150px;
-    height: 150px;
+    width: 190px;
+    height: 190px;
     cursor: pointer;
+    box-shadow: 10px 10px 10px 0px var(--primary-color);
+    border: var(--secondary-border-style) var(--primary-color);
+}
+
+.project-container:hover {
+    box-shadow: 10px 10px 10px 0px var(--secondary-color);
+    border-color: var(--secondary-color);
 }
 
 .modal {
@@ -525,9 +533,10 @@ footer p:first-of-type {
 .openClassRooms {
     position: relative;
     width: 100px;
-    bottom: 155px;
-    right: 25px;
-    border: 1px solid var(--primary-color);
+    bottom: 192px;
+    right: 45px;
+    border: var(--secondary-border-style) var(--secondary-color);
+    box-shadow: var(--secondary-box-shadow);
 }
 
 .modal-main-div {
@@ -662,19 +671,17 @@ footer p:first-of-type {
     }
 
     .projectPage-main-container {
-        width: 400px;
-        flex-wrap: wrap;
+        gap: 40px;
     }
 
     .project-container {
-        width: 100px;
-        height: 100px;
+        width: 170px;
+        height: 170px;
     }
 
     .openClassRooms {
-        width: 70px;
-        bottom: 104px;
-        right: 15px;
+        bottom: 170px;
+        right: 34px;
     }
 
     .modal-content {
@@ -785,9 +792,9 @@ footer p:first-of-type {
     }
 
     .projectPage-main-container {
-        flex-direction: column;
-        align-items: center;
+        grid-template-columns: auto;
         gap: 50px;
+        margin-bottom: 30px;
     }
 
     .project-container {
@@ -796,9 +803,8 @@ footer p:first-of-type {
     }
 
     .openClassRooms {
-        bottom: 204px;
+        bottom: 201px;
         right: 50px;
-        width: 100px;
     }
 
     .modal-content {
