@@ -376,26 +376,11 @@ h2 {
     line-height: 30px;
 }
 
-.row {
-    flex-direction: var(--primary-direction);
-    align-items: center;
-}
-
-.year {
-    border: 1px solid var(--primary-color);
-    margin-top: 5%;
-}
-
-.details h2 {
-    text-align: center;
-}
-
 .past-jobs-container {
     align-items: center;
     display: var(--primary-display);
     justify-content: center;
 }
-
 
 .social-media-container {
     display: var(--primary-display);
@@ -472,26 +457,6 @@ footer p:first-of-type {
 .get-back-btn:hover {
     background-color: rgb(232, 232, 232);
     color: var(--primary-color);
-}
-
-.card {
-    background: #fff;
-    text-align: center;
-    padding: 30px 20px;
-    max-width: 30%;
-    box-shadow: var(--primary-box-shadow);
-}
-
-.card h3 {
-    font-size: 17px;
-    margin-bottom: 25px;
-    text-transform: uppercase;
-}
-
-.card p {
-    font-size: 17px;
-    line-height: 1.5;
-    margin: 10px 0 20px;
 }
 
 .projectPage-main-container {
@@ -692,14 +657,6 @@ footer p:first-of-type {
         width: 396px;
     }
 
-    .card {
-        max-width: 43%;
-    }
-
-    .card h3 {
-        font-size: 15px;
-    }
-
     .contact-container {
         align-items: center;
     }
@@ -813,10 +770,6 @@ footer p:first-of-type {
 
     .row:first-of-type {
         margin-bottom: 50px;
-    }
-
-    .card {
-        max-width: 80%;
     }
 
     footer {
