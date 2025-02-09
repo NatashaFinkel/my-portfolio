@@ -35,6 +35,7 @@ body {
     min-width: 400px;
     background-color: #fffae0;
     font-size: 18px;
+    color: var(--primary-color);
 }
 
 h1 {
@@ -68,13 +69,15 @@ h1 {
 }
 
 .l-3 {
-    border: 3px solid #553314;
     padding: 10px;
     box-shadow: var(--secondary-box-shadow);
+    background-color: #FFFDF1;
+    border: var(--primary-border-style);
 }
 
 .l-3:hover {
-    border: 3px solid #dd934e;
+    border-color: var(--secondary-color);
+    box-shadow: 10px 10px 10px var(--secondary-color);
 }
 
 .l-5 {
