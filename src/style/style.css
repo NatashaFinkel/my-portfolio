@@ -6,6 +6,7 @@
 
     --primary-color: #553314;
     --secondary-color: #dd934e;
+    --tertiary-color: #ffffff;
 
     --primary-percentage: 100%;
 
@@ -71,7 +72,7 @@ h1 {
 .l-3 {
     padding: 10px;
     box-shadow: var(--secondary-box-shadow);
-    background-color: #FFFDF1;
+    background-color: var(--tertiary-color);
     border: var(--primary-border-style);
 }
 
@@ -127,7 +128,7 @@ li .active {
 }
 
 .nav-bar-icon {
-    color: white;
+    color: var(--tertiary-color);
     font-size: 70px;
 }
 
@@ -136,7 +137,7 @@ li .active {
 }
 
 a {
-    color: white;
+    color: var(--tertiary-color);
     text-decoration: var(--secondary-display);
 }
 
@@ -210,8 +211,8 @@ section {
 
 .h2-div {
     margin-bottom: 50px;
-    background-color: #FFFDF1;
-    box-shadow: var(--secondary-box-shadow);
+    background-color: var(--tertiary-color);
+    box-shadow: 10px 10px 10px 0px var(--secondary-color);
 }
 
 h2 {
@@ -265,7 +266,7 @@ h2 {
     opacity: 0;
     transform: translateY(50px);
     transition: opacity 0.5s ease, transform 0.5s ease;
-    background-color: #FFFDF1;
+    background-color: var(--tertiary-color);
 }
 
 .visible {
@@ -338,7 +339,7 @@ h2 {
     width: 270px;
     flex-direction: var(--primary-direction);
     align-items: center;
-    background-color: #FFFDF1;
+    background-color: var(--tertiary-color);
     border: var(--primary-border-style);
 }
 
@@ -404,7 +405,7 @@ h2 {
 }
 
 .GitHub-link a {
-    color: white;
+    color: var(--tertiary-color);
 }
 
 footer p {
@@ -427,7 +428,7 @@ footer p:first-of-type {
 }
 
 .contact-container span {
-    background-color: white;
+    background-color: var(--tertiary-color);
     margin-top: 30px;
 }
 
@@ -451,7 +452,7 @@ footer p:first-of-type {
     font-weight: bold;
     cursor: pointer;
     background-color: rgb(142, 139, 139);
-    color: white;
+    color: var(--tertiary-color);
     box-shadow: var(--primary-box-shadow);
 }
 
@@ -524,7 +525,7 @@ footer p:first-of-type {
 }
 
 #wildFlowers-project {
-    background-color: white;
+    background-color: var(--tertiary-color);
 }
 
 .project-img {
@@ -579,7 +580,7 @@ footer p:first-of-type {
 }
 
 .modal-link-btn:hover {
-    background-color: white;
+    background-color: var(--tertiary-color);
 }
 
 /* Tablettes */
