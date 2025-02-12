@@ -36,7 +36,6 @@ body {
     width: var(--primary-percentage);
     max-width: 1440px;
     min-width: 400px;
-    background-color: #fffae0;
     background-color: var(--primary-background-color);
     font-size: 18px;
     color: var(--primary-color);
@@ -481,7 +480,6 @@ footer p:first-of-type {
 }
 
 .modal-content {
-    background-color: #fff;
     background-color: var(--primary-background-color);
     border-radius: 8px;
     width: 45%;
@@ -491,6 +489,9 @@ footer p:first-of-type {
 .modal-content h3 {
     padding: 50px;
     font-size: 20px;
+    color: var(--primary-color);
+    text-decoration: underline;
+    letter-spacing: 1px;
 }
 
 .close {
@@ -550,6 +551,9 @@ footer p:first-of-type {
     justify-content: center;
     margin-bottom: 10px;
     margin-top: 20px;
+    color: var(--secondary-color);
+    text-decoration: underline;
+    letter-spacing: 1px;
 }
 
 .links-div {
@@ -563,10 +567,13 @@ footer p:first-of-type {
     padding: 10px 20px;
     cursor: pointer;
     background-color: var(--primary-background-color);
+    border: var(--primary-border-style);
+    border-color: var(--primary-color);
 }
 
 .modal-link-btn:hover {
-    background-color: var(--tertiary-color);
+    background-color: var(--secondary-color);
+    color: var(--tertiary-color);
 }
 
 /* Tablettes */
