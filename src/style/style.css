@@ -8,6 +8,8 @@
     --secondary-color: #dd934e;
     --tertiary-color: #ffffff;
 
+    --primary-background-color: #fffae0;
+
     --primary-percentage: 100%;
 
     --primary-box-shadow: 15px 20px 15px 0px grey;
@@ -35,6 +37,7 @@ body {
     max-width: 1440px;
     min-width: 400px;
     background-color: #fffae0;
+    background-color: var(--primary-background-color);
     font-size: 18px;
     color: var(--primary-color);
 }
@@ -479,6 +482,7 @@ footer p:first-of-type {
 
 .modal-content {
     background-color: #fff;
+    background-color: var(--primary-background-color);
     border-radius: 8px;
     width: 45%;
     margin: auto;
@@ -558,7 +562,7 @@ footer p:first-of-type {
 .modal-link-btn {
     padding: 10px 20px;
     cursor: pointer;
-    background-color: lightgrey;
+    background-color: var(--primary-background-color);
 }
 
 .modal-link-btn:hover {
