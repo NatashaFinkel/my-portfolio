@@ -47,9 +47,7 @@ h1 {
 
 .l-1 {
     font-size: 45px;
-    color: #AA9785;
-    color: #c3966c;
-    color: #dd934e;
+    color: var(--secondary-color);
     letter-spacing: 2px;
     line-height: 70px;
     margin-top: 10%;
@@ -60,10 +58,7 @@ h1 {
 }
 
 .typed {
-    font-family: "Roboto", serif;
-    color: #c3966c;
-    color: #905014;
-    color: #553314;
+    color: var(--primary-color);
     font-size: 50px;
     letter-spacing: 2px;
     font-family: "Roboto", serif;
@@ -71,14 +66,15 @@ h1 {
 
 .l-3 {
     padding: 10px;
-    box-shadow: var(--secondary-box-shadow);
+    box-shadow: 10px 10px 10px var(--secondary-color);
     background-color: var(--tertiary-color);
     border: var(--primary-border-style);
+    border-color: var(--secondary-color);
 }
 
 .l-3:hover {
-    border-color: var(--secondary-color);
-    box-shadow: 10px 10px 10px var(--secondary-color);
+    box-shadow: var(--secondary-box-shadow);
+    border: var(--primary-border-style);
 }
 
 .l-5 {
@@ -88,11 +84,8 @@ h1 {
 
 .l-6 {
     font-family: "Roboto", serif;
-    color: #c3966c;
     font-weight: 500;
-    color: #000;
-    color: #7d5530;
-    color: #553314;
+    color: var(--primary-color);
     font-size: 50px;
     letter-spacing: 2px;
 }
@@ -122,8 +115,7 @@ li {
 }
 
 li .active {
-    color: var(--primary-color);
-    color: #dd934e;
+    color: var(--secondary-color);
     pointer-events: var(--secondary-display);
 }
 
@@ -142,7 +134,7 @@ a {
 }
 
 a {
-    color: #553314;
+    color: var(--primary-color);
     font-weight: bold;
     letter-spacing: 1px;
     text-decoration: var(--secondary-display);
@@ -150,6 +142,7 @@ a {
 
 .l-3 a {
     color: #553314;
+    color: var(--primary-color);
     font-weight: bold;
 }
 
@@ -213,6 +206,8 @@ section {
     margin-bottom: 50px;
     background-color: var(--tertiary-color);
     box-shadow: 10px 10px 10px 0px var(--secondary-color);
+    border: var(--primary-border-style);
+    border-color: var(--secondary-color);
 }
 
 h2 {
@@ -259,7 +254,7 @@ h2 {
 }
 
 .skill {
-    box-shadow: var(--secondary-box-shadow);
+    box-shadow: 10px 10px 10px 0px var(--secondary-color);
     display: var(--primary-display);
     flex-direction: var(--primary-direction);
     color: var(--primary-color);
@@ -279,8 +274,8 @@ h2 {
     bottom: var(--primary-percentage);
     left: 50%;
     transform: translateX(-50%);
-    background-color: #333;
-    color: #fff;
+    background-color: var(--primary-color);
+    color: var(--tertiary-color);
     padding: 5px 10px;
     border-radius: 4px;
     font-size: 12px;
@@ -298,7 +293,7 @@ h2 {
     margin-left: -5px;
     border-width: 5px;
     border-style: solid;
-    border-color: #333 transparent transparent transparent;
+    border-color: var(--primary-color) transparent transparent transparent;
 }
 
 .tooltip-container:hover .tooltip {
@@ -508,7 +503,7 @@ footer p:first-of-type {
 }
 
 .close {
-    color: lightgrey;
+    color: var(--primary-color);
     float: right;
     font-size: 28px;
     font-weight: bold;
@@ -519,7 +514,7 @@ footer p:first-of-type {
 
 .close:hover,
 .close:focus {
-    color: #000;
+    color: var(--secondary-color);
     text-decoration: none;
     cursor: pointer;
 }
