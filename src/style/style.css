@@ -45,7 +45,7 @@ h1 {
     font-size: 35px;
 }
 
-.l-1 {
+.landing-page-title {
     font-size: 45px;
     color: var(--secondary-color);
     letter-spacing: 2px;
@@ -53,18 +53,20 @@ h1 {
     margin-top: 10%;
     align-self: center;
     margin-bottom: 3%;
-    font-weight: 500;
-    font-family: "Roboto", serif;
 }
 
-.typed {
+.landing-page-title span {
     color: var(--primary-color);
     font-size: 50px;
     letter-spacing: 2px;
-    font-family: "Roboto", serif;
 }
 
-.l-3 {
+.landing-page-project-page-link-div {
+    display: flex;
+    align-self: center;
+}
+
+.landing-page-project-page-link {
     padding: 10px;
     box-shadow: 10px 10px 10px var(--secondary-color);
     background-color: var(--tertiary-color);
@@ -72,24 +74,10 @@ h1 {
     border-color: var(--secondary-color);
 }
 
-.l-3:hover {
+.landing-page-project-page-link:hover {
     box-shadow: var(--secondary-box-shadow);
     border: var(--primary-border-style);
 }
-
-.l-5 {
-    display: flex;
-    align-self: center;
-}
-
-.l-6 {
-    font-family: "Roboto", serif;
-    font-weight: 500;
-    color: var(--primary-color);
-    font-size: 50px;
-    letter-spacing: 2px;
-}
-
 
 header {
     position: fixed;
@@ -141,7 +129,6 @@ a {
 }
 
 .l-3 a {
-    color: #553314;
     color: var(--primary-color);
     font-weight: bold;
 }
@@ -186,7 +173,7 @@ main {
     margin: 20px 0px 70px;
 }
 
-.l-2 {
+.landing-page {
     text-align: left;
     align-items: flex-start;
 }
