@@ -16,7 +16,7 @@ function ErrorPage() {
 
     return (
         <main>
-            <h1>OOPS !</h1>
+            <h1 className="h1-error-page">OOPS !</h1>
             <div className="error-txt-div">
                 <p>La page que vous cherchez n'existe pas !</p>
                 <p>
