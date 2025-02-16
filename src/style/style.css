@@ -378,8 +378,10 @@ h2 {
     background-color: rgb(255, 184, 4);
 }
 
+.linkedin-link:hover,
 .GitHub-link:hover,
 .send-mail-link:hover {
+    border-color: var(--secondary-color);
     box-shadow: 10px 10px 10px 0px var(--secondary-color);
 }
 
@@ -751,7 +753,7 @@ footer p:first-of-type {
     }
 
     .soft-skills-container {
-        width: 350px;
+        width: 320px;
         align-items: center;
     }
 
