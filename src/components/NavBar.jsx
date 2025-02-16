@@ -73,18 +73,19 @@ function NavBar() {
           </li>
           <li>
             <AppNavLink
-              navLinkDirection="/mon-parcours"
-              navLinkActiveclassname="active"
-              navLinkIconClassName="fa-solid fa-graduation-cap nav-bar-icon icon-display-none"
-            />
-          </li>
-          <li>
-            <AppNavLink
               navLinkDirection="/skills"
               navLinkActiveclassname="active"
               navLinkIconClassName="fa-solid fa-hammer nav-bar-icon icon-display-none"
             />
           </li>
+          <li>
+            <AppNavLink
+              navLinkDirection="/mon-parcours"
+              navLinkActiveclassname="active"
+              navLinkIconClassName="fa-solid fa-graduation-cap nav-bar-icon icon-display-none"
+            />
+          </li>
+
         </ul>
       </nav>
     </div>
