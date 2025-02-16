@@ -330,9 +330,16 @@ h2 {
     align-items: center;
     background-color: var(--tertiary-color);
     border: var(--primary-border-style);
+    background-image: url(/assets/A-3.jpg);
+}
+
+.row:nth-of-type(2),
+.row:nth-of-type(3) {
+    background-image: url(/assets/Z.jpg);
 }
 
 .year {
+    background-color: var(--tertiary-color);
     display: var(--primary-display);
     padding: 5px 15px;
     font-weight: bold;
@@ -355,11 +362,13 @@ h2 {
 .details h2 {
     margin: 0 0 10px;
     text-align: center;
+    background-color: var(--tertiary-color);
 }
 
 .details p {
     line-height: 28px;
     margin: 10px 0px;
+    background-color: var(--tertiary-color);
 }
 
 .formation-txt-div {
