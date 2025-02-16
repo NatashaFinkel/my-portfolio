@@ -625,6 +625,12 @@ footer p:first-of-type {
         flex-direction: var(--primary-direction);
     }
 
+
+    .landing-page-title,
+    .landing-page-title span {
+        font-size: 30px;
+    }
+
     .h2-div {
         margin-top: 20px;
     }
