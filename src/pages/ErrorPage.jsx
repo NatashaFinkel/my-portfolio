@@ -1,4 +1,4 @@
-import errorImage from "/assets/404-img.png?url.";
+import errorImage from "/assets/pumpkin.webp";
 
 function ErrorPage() {
     function getRedirectUrl() {
@@ -16,6 +16,13 @@ function ErrorPage() {
 
     return (
         <main>
+             <div>
+                <img
+                    src={errorImage}
+                    alt="illustration ERREUR 404"
+                    className="error-img"
+                ></img>
+            </div>
             <h1 className="h1-error-page">OOPS !</h1>
             <div className="error-txt-div">
                 <p>La page que vous cherchez n'existe pas !</p>
@@ -28,14 +35,6 @@ function ErrorPage() {
                         ici
                     </button>
                 </p>
-            </div>
-
-            <div>
-                <img
-                    src={errorImage}
-                    alt="illustration ERREUR 404"
-                    className="error-img"
-                ></img>
             </div>
         </main>
     );
