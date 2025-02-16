@@ -6,7 +6,6 @@ import { NavLink } from "react-router-dom";
 function AppNavLink({
     navLinkDirection,
     navLinkClassName,
-    navLinkActiveclassname,
     navLinkIconClassName,
     navLinkTxt,
 }) {
@@ -14,11 +13,16 @@ function AppNavLink({
         <div>
             <NavLink
                 to={navLinkDirection}
-                className={navLinkClassName}
-                activeclassname={navLinkActiveclassname}
+                className={({ isActive }) =>
+                    isActive ? "active" : `${navLinkClassName}`
+                }
             >
-                {navLinkTxt}
-                <i className={navLinkIconClassName}></i>
+                {({ isActive }) => (
+                    <>
+                        <i className={isActive ? `active ${navLinkIconClassName}` : navLinkIconClassName}></i>
+                        {navLinkTxt}
+                    </>
+                )}
             </NavLink>
         </div>
     );
@@ -27,8 +31,8 @@ function AppNavLink({
 AppNavLink.propTypes = {
     navLinkDirection: PropTypes.string,
     navLinkClassName: PropTypes.string,
-    navLinkActiveclassname: PropTypes.string,
     navLinkIconClassName: PropTypes.string,
     navLinkTxt: PropTypes.string,
 };
+
 export default AppNavLink;
