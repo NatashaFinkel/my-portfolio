@@ -27,10 +27,6 @@
     box-sizing: border-box;
 }
 
-html {
-    scroll-behavior: smooth;
-}
-
 body {
     font-family: 'Roboto', sans-serif;
     width: var(--primary-percentage);
@@ -64,11 +60,6 @@ h1 {
     color: var(--primary-color);
     font-size: 50px;
     letter-spacing: 2px;
-}
-
-.landing-page-project-page-link-div {
-    display: flex;
-    align-self: center;
 }
 
 .landing-page-project-page-link {
@@ -159,10 +150,6 @@ a {
 
 .linkedin-link {
     background-color: #0b66c2;
-}
-
-.linkedin-link:hover {
-    box-shadow: 10px 10px 10px 0px var(--secondary-color);
 }
 
 main {
@@ -375,8 +362,6 @@ h2 {
 }
 
 .social-media-container {
-    display: var(--primary-display);
-    align-items: center;
     justify-content: center;
     gap: 20px;
 }

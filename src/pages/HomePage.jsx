@@ -8,8 +8,7 @@ function HomePage() {
                 <br />
                 <span>spécialiste React.js.</span>
             </h1>
-
-            <span className="landing-page-project-page-link-div">
+            <span>
                 <AppNavLink
                     navLinkDirection="/projects"
                     navLinkClassName="landing-page-project-page-link"
