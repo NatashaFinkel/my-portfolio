@@ -15,20 +15,8 @@ function Footer() {
                         Mon profil GitHub
                     </a>
                 </div>
-            </section>
-
-            <section>
-                <div className="contact-container" id="contact-container">
-                    <p>Natasha Finkelsztajn</p>
-                    <p>
-                        32 rue des Rosiers, <br></br>75004 Paris.
-                    </p>
-                    <b>06 24 25 07 18</b>
-                    <span className="media">
-                        <a href="mailto:nfinkelsztajn@gmail.com" target="_blank">
-                            nfinkelsztajn@gmail.com
-                        </a>
-                    </span>
+                <div className="send-mail-link media">
+                    <a href="mailto:nfinkelsztajn@gmail.com" target="_blank">Me contacter par mail</a>
                 </div>
             </section>
         </footer>
