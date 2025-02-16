@@ -409,25 +409,6 @@ footer p:first-of-type {
     font-weight: 800;
 }
 
-.contact-container {
-    display: var(--primary-display);
-    flex-direction: var(--primary-direction);
-    text-align: left;
-}
-
-.contact-container a {
-    color: var(--primary-color);
-}
-
-.contact-container span {
-    background-color: var(--tertiary-color);
-    margin-top: 30px;
-}
-
-.contact-container span:hover {
-    background-color: rgba(255, 217, 0, 0.473);
-}
-
 .h1-error-page {
     margin-bottom: 1%;
     color: var(--secondary-color);
@@ -645,10 +626,6 @@ footer p:first-of-type {
         gap: 0px;
     }
 
-    .error-img {
-        width: 70%;
-    }
-
     .error-txt-div {
         width: 280px;
     }
@@ -682,10 +659,6 @@ footer p:first-of-type {
 
     .education-container {
         width: 396px;
-    }
-
-    .contact-container {
-        align-items: center;
     }
 
     .projectPage-main-container {

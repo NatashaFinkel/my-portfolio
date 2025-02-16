@@ -14,7 +14,6 @@ function ProjectsPage() {
         return () => clearTimeout(timeoutId);
     }, []);
 
-
     return (
         <main>
             <h1>Mes projets</h1>
