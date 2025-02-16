@@ -56,10 +56,8 @@ h1 {
     color: var(--secondary-color);
     letter-spacing: 2px;
     line-height: 70px;
-    margin-top: 10%;
-    margin-top: 6%;
     align-self: center;
-    margin-bottom: 3%;
+    margin: 6% 0px 3%;
 }
 
 .landing-page-title span {
@@ -588,10 +586,6 @@ footer p:first-of-type {
     h3,
     .get-back-btn {
         font-size: 15px;
-    }
-
-    main {
-        margin-top: 100px;
     }
 
     ul {
