@@ -34,8 +34,6 @@ function NavBar() {
                 navLinkTxt="Projets"
               />
             </li>
-           
-
             <li>
               <AppNavLink
                 navLinkDirection="/skills"
@@ -43,7 +41,6 @@ function NavBar() {
                 navLinkTxt="Compétences"
               />
             </li>
-
             <li>
               <AppNavLink
                 navLinkDirection="/mon-parcours"
@@ -67,7 +64,6 @@ function NavBar() {
               navLinkIconClassName="fa-solid fa-house nav-bar-icon icon-display-none"
             />
           </li>
-
           <li>
             <AppNavLink
               navLinkDirection="/projects"
@@ -77,7 +73,7 @@ function NavBar() {
           </li>
           <li>
             <AppNavLink
-              navLinkDirection="/formation"
+              navLinkDirection="/mon-parcours"
               navLinkActiveclassname="active"
               navLinkIconClassName="fa-solid fa-graduation-cap nav-bar-icon icon-display-none"
             />
@@ -87,14 +83,6 @@ function NavBar() {
               navLinkDirection="/skills"
               navLinkActiveclassname="active"
               navLinkIconClassName="fa-solid fa-hammer nav-bar-icon icon-display-none"
-            />
-          </li>
-
-          <li>
-            <AppNavLink
-              navLinkDirection="/past-jobs"
-              navLinkActiveclassname="active"
-              navLinkIconClassName="fa-solid fa-shop nav-bar-icon icon-display-none"
             />
           </li>
         </ul>

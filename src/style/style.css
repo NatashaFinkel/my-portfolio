@@ -95,12 +95,12 @@ header {
 nav {
     width: var(--primary-percentage);
     height: auto;
+    height: 40px;
 }
 
 ul {
     display: var(--primary-display);
     justify-content: center;
-    margin: 0px;
     padding: 20px 0px;
     gap: 5%;
 }
@@ -595,12 +595,14 @@ footer p:first-of-type {
     }
 
     ul {
-        gap: 2%;
+        justify-content: space-around;
+        padding: 0px;
     }
 
     .nav-bar-div,
     nav {
-        background-color: gray;
+        background-color: var(--secondary-color);
+        box-shadow: var(--secondary-box-shadow);
     }
 
     .nav-bar-div {
@@ -608,6 +610,7 @@ footer p:first-of-type {
         top: 0;
         width: var(--primary-percentage);
         z-index: 1000;
+        left: 0;
     }
 
     nav {
@@ -617,13 +620,7 @@ footer p:first-of-type {
 
     .icon-display-none {
         display: block;
-        font-size: 25px;
-        margin-bottom: 5px;
-    }
-
-    ul {
-        justify-content: space-around;
-        gap: 0px;
+        font-size: 22px;
     }
 
     .error-txt-div {
@@ -780,6 +777,10 @@ footer p:first-of-type {
 
     ul {
         max-width: 400px;
+    }
+
+    .icon-display-none {
+        font-size: 19px;
     }
 
     .projectPage-main-container {
