@@ -39,6 +39,10 @@ body {
     background-color: var(--primary-background-color);
     font-size: 18px;
     color: var(--primary-color);
+    height: fit-content;
+    border: 40px solid transparent;
+    border-image: url(/assets/BG.png) 70 round;
+    min-height: 100vh;
 }
 
 h1 {
@@ -53,6 +57,7 @@ h1 {
     letter-spacing: 2px;
     line-height: 70px;
     margin-top: 10%;
+    margin-top: 6%;
     align-self: center;
     margin-bottom: 3%;
 }
