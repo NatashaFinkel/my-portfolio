@@ -480,12 +480,13 @@ footer p:first-of-type {
 .modal-content {
     background-color: var(--primary-background-color);
     border-radius: 8px;
-    width: 45%;
+    width: 40%;
     margin: auto;
 }
 
 .modal-content h3 {
-    padding: 50px;
+    margin: 50px 50px 30px;
+    text-transform: uppercase;
     font-size: 20px;
     color: var(--primary-color);
     text-decoration: underline;
@@ -547,11 +548,10 @@ footer p:first-of-type {
     font-weight: 700;
     display: flex;
     justify-content: center;
-    margin-bottom: 10px;
-    margin-top: 20px;
+    margin: 20px 0px 10px;
     color: var(--secondary-color);
-    text-decoration: underline;
     letter-spacing: 1px;
+    text-transform: uppercase;
 }
 
 .links-div {
@@ -579,7 +579,8 @@ footer p:first-of-type {
     body,
     .year,
     h3,
-    .get-back-btn {
+    .get-back-btn,
+    .modal-link-btn {
         font-size: 15px;
     }
 
@@ -678,11 +679,7 @@ footer p:first-of-type {
     }
 
     .modal-content {
-        width: 70%;
-    }
-
-    .modal-txt-heading {
-        font-size: 17px;
+        width: 55%;
     }
 
     .links-div {
