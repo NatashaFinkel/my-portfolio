@@ -450,6 +450,12 @@ footer p:first-of-type {
     cursor: pointer;
     box-shadow: 10px 10px 10px 0px var(--primary-color);
     border: var(--secondary-border-style) var(--primary-color);
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
+
+.animation-project-page {
+    opacity: 1;
 }
 
 .project-container:hover {

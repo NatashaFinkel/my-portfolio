@@ -118,4 +118,15 @@ export default function displayProjectsData() {
         div.appendChild(modal);
         projectContainer.appendChild(div);
     });
+
+    setTimeout(() => {
+        const projectContainers = document.querySelectorAll(".project-container");
+        const timeouts = [];
+        projectContainers.forEach((item, index) => {
+            const timeout = setTimeout(() => {
+                item.classList.add("animation-project-page");
+            }, index * 700);
+            timeouts.push(timeout);
+        });
+    }, 300);
 }
