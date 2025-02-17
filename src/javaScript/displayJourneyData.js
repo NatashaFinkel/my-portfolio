@@ -34,4 +34,15 @@ export default function displayMyJourneyData() {
 
         journeyContainer.appendChild(div);
     });
+
+    setTimeout(() => {
+        const rows = document.querySelectorAll(".row");
+        const timeouts = [];
+        rows.forEach((item, index) => {
+            const timeout = setTimeout(() => {
+                item.classList.add("animation-journey-page");
+            }, index * 700);
+            timeouts.push(timeout);
+        });
+    }, 300);
 }

@@ -305,11 +305,19 @@ h2 {
     background-color: var(--tertiary-color);
     border: var(--primary-border-style);
     background-image: url(/assets/fall/education-background-img.webp);
+    opacity: 0;
+    transform: translateY(-50px);
+    transition: opacity 1s ease, transform 1s ease;
 }
 
 .row:nth-of-type(2),
 .row:nth-of-type(3) {
     background-image: url(/assets/fall/past-jobs-background-img.webp);
+}
+
+.animation-journey-page {
+    opacity: 1;
+    transform: translateY(0px);
 }
 
 .year {
