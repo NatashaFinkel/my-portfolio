@@ -56,7 +56,7 @@ export default function displayProjectsData() {
         descriptionDiv.classList.add('project-description');
         const descriptionHeading = document.createElement('p');
         descriptionHeading.classList.add('modal-txt-heading');
-        descriptionHeading.textContent = "Objectif :";
+        descriptionHeading.textContent = "Description :";
         descriptionDiv.appendChild(descriptionHeading);
         const descriptionP = document.createElement('p');
         descriptionP.textContent = project.description;
