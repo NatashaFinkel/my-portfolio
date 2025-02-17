@@ -37,7 +37,7 @@ body {
     color: var(--primary-color);
     height: fit-content;
     border: 40px solid transparent;
-    border-image: url(/assets/BG.png) 70 round;
+    border-image: url(/assets/body-border-img.webp) 70 round;
     min-height: 100vh;
 }
 
