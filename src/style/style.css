@@ -565,13 +565,12 @@ footer p:first-of-type {
     padding: 10px 20px;
     cursor: pointer;
     background-color: var(--primary-background-color);
-    border: var(--primary-border-style);
-    border-color: var(--primary-color);
+    border: var(--secondary-border-style);
+    border-color: var(--secondary-color);
 }
 
 .modal-link-btn:hover {
-    background-color: var(--secondary-color);
-    color: var(--tertiary-color);
+    border-color: var(--primary-color);
 }
 
 /* Tablettes */
