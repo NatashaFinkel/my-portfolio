@@ -1,7 +1,7 @@
 [
     {
         "id": "ninaCarducci-project",
-        "src": "./assets/camera.webp",
+        "src": "./assets/projects-logo/camera.webp",
         "alt": "appareil photo",
         "title": "Optimisation du référencement",
         "description": "identifier les faiblesses d’un site web, résoudre ses dysfonctionnements et l’optimiser au maximum.",
@@ -9,25 +9,25 @@
         "codeLink": "https://github.com/NatashaFinkel/Projet-9",
         "pdfLink": "./assets/Rapport-optimisation.pdf",
         "demoLink": "https://natashafinkel.github.io/Projet-9/",
-        "additionalImgSrc": "./assets/logo-openClassRooms.webp",
+        "additionalImgSrc": "./assets/projects-logo/logo-openClassRooms.webp",
         "additionalImgClassName": "openClassRooms",
         "additionalImgAlt": "logo d'OpenClassRooms"
     },
     {
         "id": "ArgentBank-project",
-        "src": "./assets/bank-tree.jpeg",
+        "src": "./assets/projects-logo/bank-tree.jpeg",
         "alt": "pot de pièces",
         "title": "ArgentBank",
         "description": "intégration du front-end avec le back-end via des appels API, écriture d’appels API, écriture de routes (Swagger), optimisation de code et SEO.",
         "skills": "React, Redux, Redux Toolkit, React Router, Create-React-App, Swagger.",
         "codeLink": "https://github.com/NatashaFinkel/P-11-version-2",
-        "additionalImgSrc": "./assets/logo-openClassRooms.webp",
+        "additionalImgSrc": "./assets/projects-logo/logo-openClassRooms.webp",
         "additionalImgClassName": "openClassRooms",
         "additionalImgAlt": "logo d'OpenClassRooms"
     },
     {
         "id": "cute-pet-project",
-        "src": "./assets/cute-pet-project.png",
+        "src": "./assets/projects-logo/cute-pet-project.png",
         "alt": "logo du Cute Pet Projet",
         "title": "The Cute Pet Project",
         "description": "site-vitrine d’une association de défense des animaux (projet «hors-formation»).",
@@ -37,7 +37,7 @@
     },
     {
         "id": "wildFlowers-project",
-        "src": "./assets/fleurs-sauvages.webp",
+        "src": "./assets/projects-logo/fleurs-sauvages.webp",
         "alt": "logo du wildFlowers Projet",
         "title": "Le jardin aux fleurs sauvages",
         "description": "site-vitrine d’un fleuriste (projet «hors-formation»).",

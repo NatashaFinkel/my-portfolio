@@ -37,7 +37,7 @@ body {
     color: var(--primary-color);
     height: fit-content;
     border: 40px solid transparent;
-    border-image: url(/assets/body-border-img.webp) 70 round;
+    border-image: url(/assets/fall/body-border-img.webp) 70 round;
     min-height: 100vh;
 }
 
@@ -304,12 +304,12 @@ h2 {
     align-items: center;
     background-color: var(--tertiary-color);
     border: var(--primary-border-style);
-    background-image: url(/assets/A-3.jpg);
+    background-image: url(/assets/fall/education-background-img.webp);
 }
 
 .row:nth-of-type(2),
 .row:nth-of-type(3) {
-    background-image: url(/assets/Z.jpg);
+    background-image: url(/assets/fall/past-jobs-background-img.webp);
 }
 
 .year {

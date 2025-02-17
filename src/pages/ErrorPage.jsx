@@ -1,4 +1,4 @@
-import errorImage from "/assets/pumpkin.webp";
+import errorImage from "/assets/fall/pumpkin.webp";
 
 function ErrorPage() {
     function getRedirectUrl() {
