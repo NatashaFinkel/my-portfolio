@@ -125,8 +125,8 @@ export default function displayProjectsData() {
         projectContainers.forEach((item, index) => {
             const timeout = setTimeout(() => {
                 item.classList.add("animation-project-page");
-            }, index * 700);
+            }, index * 500);
             timeouts.push(timeout);
         });
-    }, 300);
+    }, 100);
 }
