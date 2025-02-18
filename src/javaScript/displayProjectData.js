@@ -101,10 +101,10 @@ export default function displayProjectsData() {
         pdfLink.textContent = 'Rapport d\'optimisation';
         pdfLink.classList.add('modal-link-btn');
         pdfLink.addEventListener('click', () => {
-            window.open(project.pdfLink);
+            window.open("https://natashafinkel.github.io/my-portfolio/assets/Rapport-optimisation.pdf");
         });
 
-        if (project.pdfLink != undefined) {
+        if (project.id === "ninaCarducci-project") {
             linksDiv.appendChild(pdfLink);
         }
 
