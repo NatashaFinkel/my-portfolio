@@ -10,7 +10,6 @@
         "pdfLink": "./assets/Rapport-optimisation.pdf",
         "demoLink": "https://natashafinkel.github.io/Projet-9/",
         "additionalImgSrc": "./assets/projects-logo/logo-openClassRooms.webp",
-        "additionalImgClassName": "openClassRooms",
         "additionalImgAlt": "logo d'OpenClassRooms"
     },
     {
@@ -22,7 +21,6 @@
         "skills": "React, Redux, Redux Toolkit, React Router, Create-React-App, Swagger.",
         "codeLink": "https://github.com/NatashaFinkel/P-11-version-2",
         "additionalImgSrc": "./assets/projects-logo/logo-openClassRooms.webp",
-        "additionalImgClassName": "openClassRooms",
         "additionalImgAlt": "logo d'OpenClassRooms"
     },
     {

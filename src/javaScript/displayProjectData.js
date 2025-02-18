@@ -17,9 +17,9 @@ export default function displayProjectsData() {
         const additionalImg = document.createElement('img');
         additionalImg.src = project.additionalImgSrc;
         additionalImg.alt = project.additionalImgAlt;
-        additionalImg.classList.add(project.additionalImgClassName);
 
         if (project.additionalImgSrc != undefined) {
+            additionalImg.classList.add("openClassRooms");
             div.appendChild(additionalImg);
         }
 
