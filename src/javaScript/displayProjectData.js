@@ -14,15 +14,6 @@ export default function displayProjectsData() {
         projectImg.classList.add('project-img');
         div.appendChild(projectImg);
 
-        const additionalImg = document.createElement('img');
-        additionalImg.src = project.additionalImgSrc;
-        additionalImg.alt = project.additionalImgAlt;
-
-        if (project.additionalImgSrc != undefined) {
-            additionalImg.classList.add("openClassRooms");
-            div.appendChild(additionalImg);
-        }
-
         const modal = document.createElement('div');
         modal.classList.add('modal');
         const modalContent = document.createElement('div');
@@ -77,17 +68,6 @@ export default function displayProjectsData() {
         const linksDiv = document.createElement('div');
         linksDiv.classList.add('links-div');
 
-        const demoLink = document.createElement('button');
-        demoLink.textContent = 'Démo';
-        demoLink.classList.add('modal-link-btn');
-        demoLink.addEventListener('click', () => {
-            window.open(project.demoLink);
-        });
-
-        if (project.demoLink != undefined) {
-            linksDiv.appendChild(demoLink);
-        }
-
         const projectLink = document.createElement('button');
         projectLink.textContent = 'Code-source';
         projectLink.classList.add('modal-link-btn');
@@ -96,17 +76,6 @@ export default function displayProjectsData() {
         });
 
         linksDiv.appendChild(projectLink);
-
-        const pdfLink = document.createElement('button');
-        pdfLink.textContent = 'Rapport d\'optimisation';
-        pdfLink.classList.add('modal-link-btn');
-        pdfLink.addEventListener('click', () => {
-            window.open("https://natashafinkel.github.io/my-portfolio/assets/Rapport-optimisation.pdf");
-        });
-
-        if (project.id === "ninaCarducci-project") {
-            linksDiv.appendChild(pdfLink);
-        }
 
         div.addEventListener('click', () => {
             modal.style.display = 'flex';
@@ -117,6 +86,36 @@ export default function displayProjectsData() {
         modal.appendChild(modalContent);
         div.appendChild(modal);
         projectContainer.appendChild(div);
+
+        if (project.demoLink !== "none") {
+            const demoLinkBtn = document.createElement('button');
+            demoLinkBtn.textContent = 'Démo';
+            demoLinkBtn.classList.add('modal-link-btn');
+            demoLinkBtn.addEventListener('click', () => {
+                window.open(project.demoLink);
+            });
+            linksDiv.appendChild(demoLinkBtn);
+        }
+
+        if (project.id === "ninaCarducci-project") {
+            const pdfLink = document.createElement('button');
+            pdfLink.textContent = 'Rapport d\'optimisation';
+            pdfLink.classList.add('modal-link-btn');
+            pdfLink.addEventListener('click', () => {
+                window.open("https://natashafinkel.github.io/my-portfolio/assets/Rapport-optimisation.pdf");
+            });
+            linksDiv.appendChild(pdfLink);
+        }
+
+        if (project.additionalImgSrc !== "none") {
+            const additionalImg = document.createElement('img');
+            additionalImg.src = project.additionalImgSrc;
+            additionalImg.alt = project.additionalImgAlt;
+            additionalImg.classList.add("openClassRooms");
+            div.appendChild(additionalImg);
+        } else {
+            return
+        }
     });
 
     setTimeout(() => {

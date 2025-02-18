@@ -19,6 +19,7 @@
         "description": "Intégration du front-end avec le back-end via des appels API, écriture d’appels API, écriture de routes (Swagger), optimisation de code et SEO.",
         "skills": "React, Redux, Redux Toolkit, React Router, Create-React-App, Swagger.",
         "codeLink": "https://github.com/NatashaFinkel/P-11-version-2",
+        "demoLink": "none",
         "additionalImgSrc": "./assets/projects-logo/logo-openClassRooms.webp",
         "additionalImgAlt": "logo d'OpenClassRooms"
     },
@@ -30,7 +31,9 @@
         "description": "Site-vitrine d’une association de défense et protection des animaux (projet «hors-formation»).",
         "skills": "TypeScript (génération dynamique), vite, jest, responsivity, Git, GitHub.",
         "codeLink": "https://natashafinkel.github.io/cute-pet-project/",
-        "demoLink": "https://natashafinkel.github.io/cute-pet-project/"
+        "demoLink": "https://natashafinkel.github.io/cute-pet-project/",
+        "additionalImgSrc": "none",
+        "additionalImgAlt": "none"
     },
     {
         "id": "wildFlowers-project",
@@ -40,6 +43,8 @@
         "description": "Site-vitrine d’un fleuriste (projet «hors-formation»).",
         "skills": "React, Redux, Redux Toolkit, React router, vite, jest, Git, GitHub",
         "codeLink": "https://github.com/NatashaFinkel/The-flower-power-project",
-        "demoLink": "https://natashafinkel.github.io/The-flower-power-project/"
+        "demoLink": "https://natashafinkel.github.io/The-flower-power-project/",
+        "additionalImgSrc": "none",
+        "additionalImgAlt": "none"
     }
 ]
