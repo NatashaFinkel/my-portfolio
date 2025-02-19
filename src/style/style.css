@@ -518,12 +518,14 @@ footer p:first-of-type {
 }
 
 .project-img {
+    width: 184px;
     height: 100%;
 }
 
 .openClassRooms {
     position: relative;
     width: 100px;
+    height: 24px;
     bottom: 192px;
     right: 45px;
     border: var(--secondary-border-style) var(--secondary-color);
@@ -675,10 +677,15 @@ footer p:first-of-type {
         height: 130px;
     }
 
+    .project-img{
+        width: 124px;  
+    }
+
     .openClassRooms {
         bottom: 131px;
         right: 20px;
         width: 90px;
+        height: 22px;
     }
 
     .modal-content {
@@ -798,11 +805,15 @@ footer p:first-of-type {
         width: 200px;
         height: 200px;
     }
+    .project-img{
+        width: 194px;  
+    }
 
     .openClassRooms {
         bottom: 200px;
         right: 40px;
         width: 120px;
+        height: 28px;
     }
 
     .modal-content {
