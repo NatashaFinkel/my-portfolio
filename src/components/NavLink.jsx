@@ -7,6 +7,7 @@ function AppNavLink({
     navLinkDirection,
     navLinkClassName,
     navLinkIconClassName,
+    navLinkAriaLabel,
     navLinkTxt,
 }) {
     return (
@@ -16,10 +17,11 @@ function AppNavLink({
                 className={({ isActive }) =>
                     isActive ? "active" : `${navLinkClassName}`
                 }
+                aria-label={navLinkAriaLabel}
             >
                 {({ isActive }) => (
                     <>
-                        <i className={isActive ? `active ${navLinkIconClassName}` : navLinkIconClassName}></i>
+                        <i className={isActive ? `active ${navLinkIconClassName}` : navLinkIconClassName} aria-label={navLinkAriaLabel}></i>
                         {navLinkTxt}
                     </>
                 )}
@@ -32,6 +34,7 @@ AppNavLink.propTypes = {
     navLinkDirection: PropTypes.string,
     navLinkClassName: PropTypes.string,
     navLinkIconClassName: PropTypes.string,
+    navLinkAriaLabel: PropTypes.string,
     navLinkTxt: PropTypes.string,
 };
 

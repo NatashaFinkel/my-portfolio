@@ -25,6 +25,7 @@ function NavBar() {
                 navLinkDirection="/"
                 navLinkActiveclassname="active"
                 navLinkTxt="Accueil"
+                navLinkAriaLabel="lien vers la page Accueil"
               />
             </li>
             <li>
@@ -32,6 +33,7 @@ function NavBar() {
                 navLinkDirection="/projects"
                 navLinkActiveclassname="active"
                 navLinkTxt="Projets"
+                navLinkAriaLabel="lien vers la page Projets"
               />
             </li>
             <li>
@@ -39,6 +41,7 @@ function NavBar() {
                 navLinkDirection="/skills"
                 navLinkActiveclassname="active"
                 navLinkTxt="Compétences"
+                navLinkAriaLabel="lien vers la page Compétences"
               />
             </li>
             <li>
@@ -46,6 +49,7 @@ function NavBar() {
                 navLinkDirection="/mon-parcours"
                 navLinkActiveclassname="active"
                 navLinkTxt="Mon parcours"
+                navLinkAriaLabel="lien vers la page Mon parcours"
               />
             </li>
           </ul>
@@ -62,6 +66,7 @@ function NavBar() {
               navLinkDirection="/"
               navLinkActiveclassname="active"
               navLinkIconClassName="fa-solid fa-house nav-bar-icon icon-display-none"
+              navLinkAriaLabel="lien vers la page Accueil"
             />
           </li>
           <li>
@@ -69,6 +74,7 @@ function NavBar() {
               navLinkDirection="/projects"
               navLinkActiveclassname="active"
               navLinkIconClassName="fa-solid fa-star nav-bar-icon icon-display-none"
+              navLinkAriaLabel="lien vers la page Projets"
             />
           </li>
           <li>
@@ -76,6 +82,7 @@ function NavBar() {
               navLinkDirection="/skills"
               navLinkActiveclassname="active"
               navLinkIconClassName="fa-solid fa-hammer nav-bar-icon icon-display-none"
+              navLinkAriaLabel="lien vers la page Compétences"
             />
           </li>
           <li>
@@ -83,9 +90,9 @@ function NavBar() {
               navLinkDirection="/mon-parcours"
               navLinkActiveclassname="active"
               navLinkIconClassName="fa-solid fa-graduation-cap nav-bar-icon icon-display-none"
+              navLinkAriaLabel="lien vers la page Mon parcours"
             />
           </li>
-
         </ul>
       </nav>
     </div>
