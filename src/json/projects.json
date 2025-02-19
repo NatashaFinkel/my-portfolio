@@ -13,7 +13,7 @@
     },
     {
         "id": "ArgentBank-project",
-        "src": "./assets/projects-logo/bank-tree.jpeg",
+        "src": "./assets/projects-logo/bank-tree.webp",
         "alt": "pot de pièces",
         "title": "ArgentBank",
         "description": "Intégration du front-end avec le back-end via des appels API, écriture d’appels API, écriture de routes (Swagger), optimisation de code et SEO.",
@@ -25,7 +25,7 @@
     },
     {
         "id": "cute-pet-project",
-        "src": "./assets/projects-logo/cute-pet-project.png",
+        "src": "./assets/projects-logo/cute-pet-project.webp",
         "alt": "logo du Cute Pet Projet",
         "title": "The Cute Pet Project",
         "description": "Site-vitrine d’une association de défense et protection des animaux (projet «hors-formation»).",
