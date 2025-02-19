@@ -378,12 +378,15 @@ h2 {
 }
 
 .send-mail-link {
-    background-color: rgb(255, 184, 4);
+    background-color: var(--secondary-color);
+}
+
+.send-mail-link:hover {
+    box-shadow: 10px 10px 10px 0px var(--secondary-color);
 }
 
 .linkedin-link:hover,
-.GitHub-link:hover,
-.send-mail-link:hover {
+.GitHub-link:hover {
     border-color: var(--secondary-color);
     box-shadow: 10px 10px 10px 0px var(--secondary-color);
 }
