@@ -13,7 +13,5 @@ export default function MyJourneyComponent() {
         }, 1);
         return () => clearTimeout(timeoutId);
     }, []);
-    return (
-        <section id="j-1"></section>
-    );
+    return <section id="j-1"></section>;
 }
