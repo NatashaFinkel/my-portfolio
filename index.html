@@ -11,7 +11,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
-
     <script src="https://kit.fontawesome.com/6e3acb5797.js" crossorigin="anonymous"></script>
     <script>
         // Single Page Apps for GitHub Pages
@@ -34,13 +33,13 @@
                 });
                 if (q.p !== undefined) {
                     window.history.replaceState(null, null,
-                        l.pathname + (q.p || '') +
+                        l.pathname.slice(0, -1) + (q.p || '') +
                         (q.q ? ('?' + q.q) : '') +
                         l.hash
                     );
                 }
             }
-        }(window.location));
+        }(window.location))
     </script>
     <title>Portfolio</title>
 </head>
