@@ -99,7 +99,8 @@ li {
 }
 
 li .active {
-    color: var(--secondary-color);
+    text-decoration: underline;
+    text-underline-position: under;
     pointer-events: var(--secondary-display);
 }
 
