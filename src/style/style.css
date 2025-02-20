@@ -401,8 +401,7 @@ footer p:first-of-type {
 }
 
 .h1-error-page {
-    margin-bottom: 1%;
-    color: var(--secondary-color);
+    margin-bottom: 20px;
 }
 
 .error-txt-div {
@@ -412,11 +411,6 @@ footer p:first-of-type {
     line-height: 30px;
     margin-bottom: 50px;
     font-weight: 900;
-}
-
-.error-txt-div p:first-of-type {
-    margin-bottom: 3%;
-    color: var(--secondary-color);
 }
 
 .get-back-btn {
