@@ -16,7 +16,9 @@ function Footer() {
                     </a>
                 </div>
                 <div className="send-mail-link media">
-                    <a href="mailto:nfinkelsztajn@gmail.com" target="_blank">Me contacter par mail</a>
+                    <a href="mailto:nfinkelsztajn@gmail.com" target="_blank">
+                        Me contacter par mail
+                    </a>
                 </div>
             </section>
         </footer>

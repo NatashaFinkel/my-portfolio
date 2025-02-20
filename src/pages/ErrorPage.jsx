@@ -25,7 +25,8 @@ function ErrorPage() {
             </div>
             <h1 className="h1-error-page">OOPS !</h1>
             <div className="error-txt-div">
-                <p>La page que vous cherchez n'existe pas !<br></br>
+                <p>
+                    La page que vous cherchez n'existe pas !<br></br>
                     Vous pouvez retourner à la page d'accueil en cliquant
                     <button
                         onClick={() => (window.location.href = getRedirectUrl())}

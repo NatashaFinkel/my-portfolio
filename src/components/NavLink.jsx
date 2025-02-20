@@ -21,7 +21,14 @@ function AppNavLink({
             >
                 {({ isActive }) => (
                     <>
-                        <i className={isActive ? `active ${navLinkIconClassName}` : navLinkIconClassName} aria-label={navLinkAriaLabel}></i>
+                        <i
+                            className={
+                                isActive
+                                    ? `active ${navLinkIconClassName}`
+                                    : navLinkIconClassName
+                            }
+                            aria-label={navLinkAriaLabel}
+                        ></i>
                         {navLinkTxt}
                     </>
                 )}

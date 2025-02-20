@@ -17,9 +17,11 @@ function ProjectsPage() {
     return (
         <main>
             <h1>Mes projets</h1>
-            <div className="projectPage-main-container" id="projectPage-main-container">
-            </div>
-        </main >
+            <div
+                className="projectPage-main-container"
+                id="projectPage-main-container"
+            ></div>
+        </main>
     );
 }
 

@@ -6,7 +6,7 @@ const App = () => {
   return (
     <div>
       <AppRouter />
-     <Footer /> 
+      <Footer />
     </div>
   );
 };

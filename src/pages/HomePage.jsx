@@ -3,7 +3,9 @@ import AppNavLink from "../components/NavLink";
 function HomePage() {
     return (
         <main className="landing-page">
-            <h1 className="landing-page-title">Natasha Finkelsztajn.<br />
+            <h1 className="landing-page-title">
+                Natasha Finkelsztajn.
+                <br />
                 <span>Développeur web,</span>
                 <br />
                 <span>spécialiste React.js.</span>
