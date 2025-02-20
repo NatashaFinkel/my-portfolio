@@ -488,12 +488,13 @@ footer p:first-of-type {
     margin: auto;
 }
 
-.modal-content h3 {
+.modal-content h2 {
     margin: 50px 50px 30px;
     text-transform: uppercase;
     font-size: 20px;
     color: var(--primary-color);
     text-decoration: underline;
+    text-underline-position: under;
     letter-spacing: 1px;
 }
 
@@ -558,6 +559,7 @@ footer p:first-of-type {
     color: var(--secondary-color);
     letter-spacing: 1px;
     text-transform: uppercase;
+    font-size: 17px;
 }
 
 .links-div {

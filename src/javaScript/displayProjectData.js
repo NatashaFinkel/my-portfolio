@@ -36,16 +36,16 @@ export default function displayProjectsData() {
             }
         });
 
-        const h3 = document.createElement('h3');
-        h3.appendChild(document.createTextNode(project.title));
-        modalContent.appendChild(h3);
+        const h2 = document.createElement('h2');
+        h2.appendChild(document.createTextNode(project.title));
+        modalContent.appendChild(h2);
 
         const modalMainDiv = document.createElement('div');
         modalMainDiv.classList.add('modal-main-div');
 
         const descriptionDiv = document.createElement('div');
         descriptionDiv.classList.add('project-description');
-        const descriptionHeading = document.createElement('p');
+        const descriptionHeading = document.createElement('h3');
         descriptionHeading.classList.add('modal-txt-heading');
         descriptionHeading.textContent = "Description :";
         descriptionDiv.appendChild(descriptionHeading);
@@ -56,7 +56,7 @@ export default function displayProjectsData() {
 
         const skillsDiv = document.createElement('div');
         skillsDiv.classList.add('skills-div');
-        const skillsHeading = document.createElement('p');
+        const skillsHeading = document.createElement('h3');
         skillsHeading.classList.add('modal-txt-heading');
         skillsHeading.textContent = "Compétences :";
         skillsDiv.appendChild(skillsHeading);
