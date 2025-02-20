@@ -114,7 +114,7 @@ export default function displayProjectsData() {
             additionalImg.classList.add("openClassRooms");
             div.appendChild(additionalImg);
         } else {
-            return
+            return;
         }
     });
 
