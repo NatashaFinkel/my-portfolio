@@ -2,81 +2,97 @@
     {
         "name": "HTML",
         "imgSrc": "./assets/hardSkills/html5.svg",
+        "imgAlt": "logo html",
         "imgCredits": "https://svgl.app/?ref=dailydev&search=html"
     },
     {
         "name": "CSS",
         "imgSrc": "./assets/hardSkills/css.svg",
+        "imgAlt": "logo css",
         "imgCredits": "https://svgl.app/?ref=dailydev&search=css"
     },
     {
         "name": "Sass",
         "imgSrc": "./assets/hardSkills/sass.svg",
+        "imgAlt": "logo Sass",
         "imgCredits": "https://svgl.app/?ref=dailydev&search=sass"
     },
     {
         "name": "JavaScript",
         "imgSrc": "./assets/hardSkills/javascript.svg",
+        "imgAlt": "logo JavaScript",
         "imgCredits": "https://svgl.app/?ref=dailydev&search=JavaScript"
     },
     {
         "name": "TypeScript",
         "imgSrc": "./assets/hardSkills/typescript.svg",
+        "imgAlt": "logo TypeScript",
         "imgCredits": "https://svgl.app/?ref=dailydev&search=TypeScript"
     },
     {
         "name": "React",
         "imgSrc": "./assets/hardSkills/react.svg",
+        "imgAlt": "logo React",
         "imgCredits": "https://svgl.app/?ref=dailydev&search=React"
     },
     {
         "name": "Vite",
         "imgSrc": "./assets/hardSkills/vite.svg",
+        "imgAlt": "logo vite",
         "imgCredits": "https://pixabay.com/fr/illustrations/search-engine-optimization-seo-1359427/"
     },
     {
         "name": "React Router",
         "imgSrc": "./assets/hardSkills/react-router.svg",
+        "imgAlt": "logo React Router",
         "imgCredits": "https://svgl.app/?ref=dailydev&search=React"
     },
     {
         "name": "Create React App",
         "imgSrc": "./assets/hardSkills/create-react-app.svg",
+        "imgAlt": "logo Create React App",
         "imgCredits": "https://create-react-app.dev/"
     },
     {
-        "name": "Redux Redux Toolkit",
+        "name": "Redux, Redux Toolkit",
         "imgSrc": "./assets/hardSkills/redux.svg",
+        "imgAlt": "logo Redux, Redux ToolKit",
         "imgCredits": "https://svgl.app/?ref=dailydev&search=Redux"
     },
     {
         "name": "Jest",
         "imgSrc": "./assets/hardSkills/jest.svg",
+        "imgAlt": "logo jest",
         "imgCredits": "https://svgl.app/?ref=dailydev&search=Jest"
     },
     {
         "name": "VS Code",
         "imgSrc": "./assets/hardSkills/vscode.svg",
+        "imgAlt": "logo VS Code",
         "imgCredits": "https://svgl.app/?ref=dailydev&search=Visual+Studio+Code"
     },
     {
         "name": "Git",
         "imgSrc": "./assets/hardSkills/git.svg",
+        "imgAlt": "logo Git",
         "imgCredits": "https://svgl.app/?ref=dailydev&search=Git"
     },
     {
         "name": "GitHub",
         "imgSrc": "./assets/hardSkills/Github_light.svg",
+        "imgAlt": "logo GitHub",
         "imgCredits": "https://svgl.app/?ref=dailydev&search=Github"
     },
     {
         "name": "SEO",
         "imgSrc": "./assets/hardSkills/SEO.svg",
+        "imgAlt": "logo SEO",
         "imgCredits": "https://pixabay.com/fr/illustrations/search-engine-optimization-seo-1359427/"
     },
     {
         "name": "English",
         "imgSrc": "./assets/hardSkills/union-jack.svg",
+        "imgAlt": "drapeau britannique",
         "imgCredits": "https://pixabay.com/fr/vectors/uni-drapeau-royaume-britanique-28519/"
     }
 ]

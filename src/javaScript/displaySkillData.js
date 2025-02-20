@@ -10,6 +10,7 @@ export default function displaySkillData() {
         span.classList.add('skill');
         const img = document.createElement('img');
         img.src = skill.imgSrc;
+        img.alt = skill.imgAlt;
         img.classList.add('hard-skills-img');
 
         span.appendChild(img);
