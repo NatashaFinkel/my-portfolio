@@ -10,6 +10,11 @@ function HomePage() {
                 <br />
                 <span>spécialiste React.js.</span>
             </h1>
+            <div className="landing-page-txt-div">
+                <p>À notre époque où les gens de ma génération papillonnent d’un emploi à un autre, j’ai choisi de rester fidèle à mes valeurs : ces 8 ans dans la même entreprise ont été à la fois mon ancre, mon gouvernail et le vent qui souffle vers le large.</p>
+                <p> Cette aventure m’a enseigné le sens des responsabilités, l’honnêteté et le respect. J’ai appris à quel point la communication bienveillante et l’écoute sont indispensables.<br></br>Mais même si la raison parle fort, le coeur lui, sait très bien ce qui lui convient.</p>
+                <p>Avide de nouveaux horizons, je me suis dirigée vers le développement un peu par hasard… et j’y suis restée par passion !</p>
+            </div>
             <span>
                 <AppNavLink
                     navLinkDirection="/projects"
