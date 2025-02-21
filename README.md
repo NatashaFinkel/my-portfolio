@@ -1,6 +1,6 @@
 # Mon portfolio
 
-## Bonjour !  😄  
+## Bonjour ! 😄
 
 Je m'appelle Natasha Finkelsztajn, et je suis développeur front-end spécialisée en React.js.
 
@@ -8,7 +8,27 @@ Je m'appelle Natasha Finkelsztajn, et je suis développeur front-end spécialis�
 
 https://natashafinkel.github.io/my-portfolio/
 
-## Ma stack pour ce projet : 
+## Installation
+
+1. Clonez le projet :
+
+```sh
+git clone https://github.com/NatashaFinkel/my-portfolio.git
+```
+
+2.Installez les dépendances
+
+```sh
+npm install
+```
+
+2.Lancez le projet !
+
+```sh
+npm run dev
+```
+
+## Ma stack pour ce projet :
 
 - VS Code
 - npm
@@ -34,8 +54,7 @@ https://natashafinkel.github.io/my-portfolio/
 #### Compétences linguistiques :
 
 - Français : langue maternelle.
-- anglais : C1 (niveau auto-estimé d'après le classement du CECRL  : le cadre européen de référence pour les langues)
-
+- anglais : C1 (niveau auto-estimé d'après le classement du CECRL : le cadre européen de référence pour les langues)
 
 ## Intéressé ? 🤩
 
@@ -43,5 +62,4 @@ Email : nfinkelsztajn@gmail.com
 
 Linkedin : [www.linkedin.com/in/natasha-finkelsztajn](www.linkedin.com/in/natasha-finkelsztajn)
 
-Et n'hésitez pas à aller explorer mes autres projets sur mon profile gitHub : https://github.com/NatashaFinkel 
-
+Et n'hésitez pas à aller explorer mes autres projets sur mon profile gitHub : https://github.com/NatashaFinkel
