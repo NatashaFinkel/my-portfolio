@@ -48,17 +48,15 @@ h1 {
 }
 
 .landing-page-title {
-    font-size: 45px;
+    font-size: 33px;
     color: var(--secondary-color);
     letter-spacing: 2px;
-    line-height: 70px;
     align-self: center;
-    margin: 6% 0px 3%;
+    margin: 50px 0px 50px;
 }
 
 .landing-page-title span {
     color: var(--primary-color);
-    font-size: 50px;
     letter-spacing: 2px;
 }
 
@@ -597,6 +595,11 @@ footer p:first-of-type {
         font-size: 15px;
     }
 
+    main,
+    h1 {
+        margin-top: 0px;
+    }
+
     ul {
         justify-content: space-around;
         padding: 0px;
@@ -615,16 +618,18 @@ footer p:first-of-type {
     nav {
         margin: 0px;
         align-content: center;
+        height: 60px;
     }
 
     .icon-display-none {
         display: block;
-        font-size: 22px;
+        font-size: 24px;
         padding: 10px;
     }
 
     li .active {
         color: #553314;
+        text-decoration: none;
     }
 
     #j-1 {
@@ -640,12 +645,12 @@ footer p:first-of-type {
     }
 
     .landing-page-title {
-        line-height: 40px;
+        margin-top: 20px;
     }
 
     .landing-page-title,
     .landing-page-title span {
-        font-size: 27px;
+        font-size: 26px;
     }
 
     .h2-div {
@@ -713,10 +718,6 @@ footer p:first-of-type {
         font-size: 25px;
     }
 
-    .landing-page-title {
-        margin: inherit;
-    }
-
     header {
         top: auto;
         bottom: 0px;
@@ -725,6 +726,11 @@ footer p:first-of-type {
     .nav-bar-div {
         top: auto;
         bottom: 0;
+    }
+
+    .landing-page-title,
+    h1 {
+        margin-top: 30px;
     }
 
     .h2-div {
