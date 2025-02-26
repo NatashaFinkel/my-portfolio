@@ -30,7 +30,7 @@
         "title": "The Cute Pet Project",
         "description": "Site-vitrine d’une association de défense et protection des animaux (projet «hors-formation»).",
         "skills": "TypeScript (génération dynamique), vite, jest, responsivity, Git, GitHub.",
-        "codeLink": "https://natashafinkel.github.io/cute-pet-project/",
+        "codeLink": "https://github.com/NatashaFinkel/cute-pet-project",
         "demoLink": "https://natashafinkel.github.io/cute-pet-project/",
         "additionalImgSrc": "none",
         "additionalImgAlt": "none"
