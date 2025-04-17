@@ -43,16 +43,16 @@ export default function displayProjectsData() {
         const modalMainDiv = document.createElement('div');
         modalMainDiv.classList.add('modal-main-div');
 
-        const descriptionDiv = document.createElement('div');
-        descriptionDiv.classList.add('project-description');
-        const descriptionHeading = document.createElement('h3');
-        descriptionHeading.classList.add('modal-txt-heading');
-        descriptionHeading.textContent = "Description :";
-        descriptionDiv.appendChild(descriptionHeading);
-        const descriptionP = document.createElement('p');
-        descriptionP.textContent = project.description;
-        descriptionDiv.appendChild(descriptionP);
-        modalMainDiv.appendChild(descriptionDiv);
+        const pitchDiv = document.createElement('div');
+        pitchDiv.classList.add('project-pitch');
+        const pitchHeading = document.createElement('h3');
+        pitchHeading.classList.add('modal-txt-heading');
+        pitchHeading.textContent = "Le pitch :";
+        pitchDiv.appendChild(pitchHeading);
+        const pitchP = document.createElement('p');
+        pitchP.textContent = project.pitch;
+        pitchDiv.appendChild(pitchP);
+        modalMainDiv.appendChild(pitchDiv);
 
         const skillsDiv = document.createElement('div');
         skillsDiv.classList.add('skills-div');
