@@ -1,4 +1,8 @@
 import projects from "../json/projects.json";
+import NinaCarducciSkills from "../json/NinaCarducciSkills.json";
+import argentBankSkills from "../json/argentBankSkills.json";
+import cutePetproject from "../json/cutePetProjectSkills.json";
+import wildFlowers from "../json/wildFlowersProject.json";
 
 export default function displayProjectsData() {
     const projectContainer = document.getElementById('projectPage-main-container');
@@ -60,9 +64,33 @@ export default function displayProjectsData() {
         skillsHeading.classList.add('modal-txt-heading');
         skillsHeading.textContent = "Compétences :";
         skillsDiv.appendChild(skillsHeading);
-        const skillsP = document.createElement('p');
-        skillsP.textContent = project.skills;
-        skillsDiv.appendChild(skillsP);
+
+        const container = document.createElement('div');
+        container.classList.add('modal-skills-container');
+        container.id = `modal-skills-container-${project.id}`;
+
+        const skillsDataMap = {
+            'modal-skills-container-ninaCarducci-project': NinaCarducciSkills,
+            'modal-skills-container-ArgentBank-project': argentBankSkills,
+            'modal-skills-container-cute-pet-project': cutePetproject,
+            'modal-skills-container-wildFlowers-project': wildFlowers
+        };
+
+        // Si l'id du container correspond à l'un des éléments de skillsDataMap, les données associées sont affichées.
+        if (skillsDataMap[container.id]) {
+            skillsDataMap[container.id].forEach(skill => {
+                const skillElement = document.createElement('span');
+                skillElement.classList.add('modal-skill-span');
+                const img = document.createElement('img');
+                img.classList.add("modal-skill-img");
+                img.src = skill.imgSrc;
+                img.alt = skill.imgAlt;
+                skillElement.appendChild(img);
+                container.appendChild(skillElement);
+            });
+        }
+
+        skillsDiv.appendChild(container);
         modalMainDiv.appendChild(skillsDiv);
 
         const linksDiv = document.createElement('div');
