@@ -1,0 +1,32 @@
+[
+    {
+        "name": "TypeScript",
+        "imgSrc": "./assets/hardSkills/typescript.svg",
+        "imgAlt": "logo TypeScript",
+        "imgCredits": "https://svgl.app/?ref=dailydev&search=TypeScript"
+    },
+    {
+        "name": "Vite",
+        "imgSrc": "./assets/hardSkills/vite.svg",
+        "imgAlt": "logo vite",
+        "imgCredits": "https://pixabay.com/fr/illustrations/search-engine-optimization-seo-1359427/"
+    },
+    {
+        "name": "Jest",
+        "imgSrc": "./assets/hardSkills/jest.svg",
+        "imgAlt": "logo jest",
+        "imgCredits": "https://svgl.app/?ref=dailydev&search=Jest"
+    },
+    {
+        "name": "Git",
+        "imgSrc": "./assets/hardSkills/git.svg",
+        "imgAlt": "logo Git",
+        "imgCredits": "https://svgl.app/?ref=dailydev&search=Git"
+    },
+    {
+        "name": "GitHub",
+        "imgSrc": "./assets/hardSkills/Github_light.svg",
+        "imgAlt": "logo GitHub",
+        "imgCredits": "https://svgl.app/?ref=dailydev&search=Github"
+    }
+]

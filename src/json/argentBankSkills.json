@@ -1,0 +1,32 @@
+[
+    {
+        "name": "React",
+        "imgSrc": "./assets/hardSkills/react.svg",
+        "imgAlt": "logo React",
+        "imgCredits": "https://svgl.app/?ref=dailydev&search=React"
+    },
+    {
+        "name": "Redux, Redux Toolkit",
+        "imgSrc": "./assets/hardSkills/redux.svg",
+        "imgAlt": "logo Redux, Redux ToolKit",
+        "imgCredits": "https://svgl.app/?ref=dailydev&search=Redux"
+    },
+    {
+        "name": "React Router",
+        "imgSrc": "./assets/hardSkills/react-router.svg",
+        "imgAlt": "logo React Router",
+        "imgCredits": "https://svgl.app/?ref=dailydev&search=React"
+    },
+    {
+        "name": "Create React App",
+        "imgSrc": "./assets/hardSkills/create-react-app.svg",
+        "imgAlt": "logo Create React App",
+        "imgCredits": "https://create-react-app.dev/"
+    },
+    {
+        "name": "Swagger",
+        "imgSrc": "./assets/hardSkills/swagger.svg",
+        "imgAlt": "logo Swagger",
+        "imgCredits": "https://svgl.app/?ref=dailydev&search=swagge"
+    }
+]

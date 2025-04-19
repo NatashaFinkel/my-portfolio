@@ -1,0 +1,44 @@
+[
+    {
+        "name": "React",
+        "imgSrc": "./assets/hardSkills/react.svg",
+        "imgAlt": "logo React",
+        "imgCredits": "https://svgl.app/?ref=dailydev&search=React"
+    },
+    {
+        "name": "Redux, Redux Toolkit",
+        "imgSrc": "./assets/hardSkills/redux.svg",
+        "imgAlt": "logo Redux, Redux ToolKit",
+        "imgCredits": "https://svgl.app/?ref=dailydev&search=Redux"
+    },
+    {
+        "name": "React Router",
+        "imgSrc": "./assets/hardSkills/react-router.svg",
+        "imgAlt": "logo React Router",
+        "imgCredits": "https://svgl.app/?ref=dailydev&search=React"
+    },
+    {
+        "name": "Vite",
+        "imgSrc": "./assets/hardSkills/vite.svg",
+        "imgAlt": "logo vite",
+        "imgCredits": "https://pixabay.com/fr/illustrations/search-engine-optimization-seo-1359427/"
+    },
+    {
+        "name": "Jest",
+        "imgSrc": "./assets/hardSkills/jest.svg",
+        "imgAlt": "logo jest",
+        "imgCredits": "https://svgl.app/?ref=dailydev&search=Jest"
+    },
+    {
+        "name": "Git",
+        "imgSrc": "./assets/hardSkills/git.svg",
+        "imgAlt": "logo Git",
+        "imgCredits": "https://svgl.app/?ref=dailydev&search=Git"
+    },
+    {
+        "name": "GitHub",
+        "imgSrc": "./assets/hardSkills/Github_light.svg",
+        "imgAlt": "logo GitHub",
+        "imgCredits": "https://svgl.app/?ref=dailydev&search=Github"
+    }
+]
