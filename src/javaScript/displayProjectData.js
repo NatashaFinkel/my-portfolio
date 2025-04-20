@@ -62,7 +62,7 @@ export default function displayProjectsData() {
         skillsDiv.classList.add('skills-div');
         const skillsHeading = document.createElement('h3');
         skillsHeading.classList.add('modal-txt-heading');
-        skillsHeading.textContent = "Compétences :";
+        skillsHeading.textContent = "Stack :";
         skillsDiv.appendChild(skillsHeading);
 
         const container = document.createElement('div');
