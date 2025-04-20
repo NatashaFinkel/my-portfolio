@@ -6,7 +6,7 @@ import wildFlowersProjectFeatures from "../json/wildFlowersProjectFeatures.json"
 import ninaCarducciSkills from "../json/ninaCarducciSkills.json";
 import argentBankSkills from "../json/argentBankSkills.json";
 import cutePetproject from "../json/cutePetProjectSkills.json";
-import wildFlowers from "../json/wildFlowersProject.json";
+import wildFlowersProjectSkills from "../json/wildFlowersProjectSkills.json";
 
 export default function displayProjectsData() {
     const projectContainer = document.getElementById('projectPage-main-container');
@@ -107,7 +107,7 @@ export default function displayProjectsData() {
             'modal-skills-container-ninaCarducci-project': ninaCarducciSkills,
             'modal-skills-container-ArgentBank-project': argentBankSkills,
             'modal-skills-container-cute-pet-project': cutePetproject,
-            'modal-skills-container-wildFlowers-project': wildFlowers
+            'modal-skills-container-wildFlowers-project': wildFlowersProjectSkills
         };
 
         // Si l'id du container correspond à l'un des éléments de skillsDataMap, les données associées sont affichées.
