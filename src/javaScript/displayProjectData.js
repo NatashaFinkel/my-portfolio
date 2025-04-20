@@ -1,5 +1,5 @@
 import projects from "../json/projects.json";
-import NinaCarducciSkills from "../json/NinaCarducciSkills.json";
+import ninaCarducciSkills from "../json/ninaCarducciSkills.json";
 import argentBankSkills from "../json/argentBankSkills.json";
 import cutePetproject from "../json/cutePetProjectSkills.json";
 import wildFlowers from "../json/wildFlowersProject.json";
@@ -70,7 +70,7 @@ export default function displayProjectsData() {
         container.id = `modal-skills-container-${project.id}`;
 
         const skillsDataMap = {
-            'modal-skills-container-ninaCarducci-project': NinaCarducciSkills,
+            'modal-skills-container-ninaCarducci-project': ninaCarducciSkills,
             'modal-skills-container-ArgentBank-project': argentBankSkills,
             'modal-skills-container-cute-pet-project': cutePetproject,
             'modal-skills-container-wildFlowers-project': wildFlowers
