@@ -5,7 +5,7 @@ import cutePetprojectFeatures from "../json/cutePetProjectFeatures.json";
 import wildFlowersProjectFeatures from "../json/wildFlowersProjectFeatures.json"
 import ninaCarducciSkills from "../json/ninaCarducciSkills.json";
 import argentBankSkills from "../json/argentBankSkills.json";
-import cutePetproject from "../json/cutePetProjectSkills.json";
+import cutePetprojectSkills from "../json/cutePetProjectSkills.json";
 import wildFlowersProjectSkills from "../json/wildFlowersProjectSkills.json";
 
 export default function displayProjectsData() {
@@ -106,7 +106,7 @@ export default function displayProjectsData() {
         const skillsDataMap = {
             'modal-skills-container-ninaCarducci-project': ninaCarducciSkills,
             'modal-skills-container-ArgentBank-project': argentBankSkills,
-            'modal-skills-container-cute-pet-project': cutePetproject,
+            'modal-skills-container-cute-pet-project': cutePetprojectSkills,
             'modal-skills-container-wildFlowers-project': wildFlowersProjectSkills
         };
 
