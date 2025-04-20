@@ -1,0 +1,17 @@
+[
+    {
+        "feature": "L’utilisateur peut visiter la page d'accueil"
+    },
+    {
+        "feature": "L’utilisateur peut se connecter au système (et pouvoir gérer des erreurs si l’username ou mdp sont incorrects)"
+    },
+    {
+        "feature": "L’utilisateur peut se déconnecter du système"
+    },
+    {
+        "feature": "L’utilisateur ne peut voir les informations relatives à son propre profil qu'après s'être connecté avec succès"
+    },
+    {
+        "feature": "L’utilisateur ne peut pas modifier son nom ni son prénom, mais il peut modifier son pseudo"
+    }
+]
