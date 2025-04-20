@@ -1,4 +1,8 @@
 import projects from "../json/projects.json";
+import ninaCarducciFeatures from "../json/ninaCarducciFeatures.json";
+import argentBankFeatures from "../json/argentBankFeatures.json";
+import cutePetprojectFeatures from "../json/cutePetProjectFeatures.json";
+import wildFlowersProjectFeatures from "../json/wildFlowersProjectFeatures.json"
 import ninaCarducciSkills from "../json/ninaCarducciSkills.json";
 import argentBankSkills from "../json/argentBankSkills.json";
 import cutePetproject from "../json/cutePetProjectSkills.json";
@@ -58,6 +62,36 @@ export default function displayProjectsData() {
         pitchDiv.appendChild(pitchP);
         modalMainDiv.appendChild(pitchDiv);
 
+        const featuresDiv = document.createElement('div');
+        featuresDiv.classList.add('features-div');
+        const featuresHeading = document.createElement('h3');
+        featuresHeading.classList.add('modal-txt-heading');
+        featuresHeading.textContent = "Fonctionnalités :";
+        featuresDiv.appendChild(featuresHeading);
+
+        const featuresContainer = document.createElement('div');
+        featuresContainer.classList.add('features-container');
+        featuresContainer.id = `features-container-${project.id}`;
+
+        const featuresDataMap = {
+            'features-container-ninaCarducci-project': ninaCarducciFeatures,
+            'features-container-ArgentBank-project': argentBankFeatures,
+            'features-container-cute-pet-project': cutePetprojectFeatures,
+            'features-container-wildFlowers-project': wildFlowersProjectFeatures
+        };
+
+        if (featuresDataMap[featuresContainer.id]) {
+            const ul = document.createElement('ul');
+            featuresDataMap[featuresContainer.id].forEach(feature => {
+                const li = document.createElement('li');
+                li.textContent = feature.feature || "Fonctionnalité inconnue";
+                ul.appendChild(li);
+            });
+            featuresContainer.appendChild(ul);
+        }
+
+        featuresDiv.appendChild(featuresContainer);
+
         const skillsDiv = document.createElement('div');
         skillsDiv.classList.add('skills-div');
         const skillsHeading = document.createElement('h3');
@@ -91,6 +125,7 @@ export default function displayProjectsData() {
         }
 
         skillsDiv.appendChild(container);
+        modalMainDiv.appendChild(featuresDiv);
         modalMainDiv.appendChild(skillsDiv);
 
         const linksDiv = document.createElement('div');

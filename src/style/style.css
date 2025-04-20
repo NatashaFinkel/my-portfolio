@@ -592,6 +592,16 @@ footer p:first-of-type {
     cursor: default;
 }
 
+.features-container ul {
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+.features-container li {
+    list-style-type: square;
+}
+
 .links-div {
     justify-content: center;
     display: flex;
