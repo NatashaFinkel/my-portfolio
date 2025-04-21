@@ -1,8 +1,9 @@
 import projects from "../json/projects.json";
+import generateHtmlElement from "./generateHtmlElement";
 import ninaCarducciFeatures from "../json/ninaCarducciFeatures.json";
 import argentBankFeatures from "../json/argentBankFeatures.json";
 import cutePetprojectFeatures from "../json/cutePetProjectFeatures.json";
-import wildFlowersProjectFeatures from "../json/wildFlowersProjectFeatures.json"
+import wildFlowersProjectFeatures from "../json/wildFlowersProjectFeatures.json";
 import ninaCarducciSkills from "../json/ninaCarducciSkills.json";
 import argentBankSkills from "../json/argentBankSkills.json";
 import cutePetprojectSkills from "../json/cutePetProjectSkills.json";
@@ -12,9 +13,7 @@ export default function displayProjectsData() {
     const projectContainer = document.getElementById('projectPage-main-container');
 
     projects.forEach(project => {
-        const div = document.createElement('div');
-        div.classList.add('project-container');
-        div.id = project.id;
+        const div = generateHtmlElement('div', 'project-container', project.id);
 
         const projectImg = document.createElement('img');
         projectImg.src = project.src;
@@ -22,14 +21,10 @@ export default function displayProjectsData() {
         projectImg.classList.add('project-img');
         div.appendChild(projectImg);
 
-        const modal = document.createElement('div');
-        modal.classList.add('modal');
-        const modalContent = document.createElement('div');
-        modalContent.classList.add('modal-content');
+        const modal = generateHtmlElement('div', 'modal');
+        const modalContent = generateHtmlElement('div', 'modal-content');
 
-        const closeBtnSpan = document.createElement('span');
-        closeBtnSpan.id = "close-btn";
-        closeBtnSpan.classList.add('close');
+        const closeBtnSpan = generateHtmlElement('span', 'close', 'close-btn');
         closeBtnSpan.innerHTML = '&times;';
         modalContent.appendChild(closeBtnSpan);
 
@@ -48,30 +43,24 @@ export default function displayProjectsData() {
         h2.appendChild(document.createTextNode(project.title));
         modalContent.appendChild(h2);
 
-        const modalMainDiv = document.createElement('div');
-        modalMainDiv.classList.add('modal-main-div');
+        const modalMainDiv = generateHtmlElement('div', 'modal-main-div');
+        const pitchDiv = generateHtmlElement('div', 'project-pitch');
 
-        const pitchDiv = document.createElement('div');
-        pitchDiv.classList.add('project-pitch');
-        const pitchHeading = document.createElement('h3');
-        pitchHeading.classList.add('modal-txt-heading');
+        const pitchHeading = generateHtmlElement('h3', 'modal-txt-heading');
         pitchHeading.textContent = "Le pitch :";
         pitchDiv.appendChild(pitchHeading);
+
         const pitchP = document.createElement('p');
         pitchP.textContent = project.pitch;
         pitchDiv.appendChild(pitchP);
         modalMainDiv.appendChild(pitchDiv);
 
-        const featuresDiv = document.createElement('div');
-        featuresDiv.classList.add('features-div');
-        const featuresHeading = document.createElement('h3');
-        featuresHeading.classList.add('modal-txt-heading');
+        const featuresDiv = generateHtmlElement('div', 'features-div');
+        const featuresHeading = generateHtmlElement('h3', 'modal-txt-heading');
         featuresHeading.textContent = "Fonctionnalités :";
         featuresDiv.appendChild(featuresHeading);
 
-        const featuresContainer = document.createElement('div');
-        featuresContainer.classList.add('features-container');
-        featuresContainer.id = `features-container-${project.id}`;
+        const featuresContainer = generateHtmlElement('div', 'features-container', `features-container-${project.id}`);
 
         const featuresDataMap = {
             'features-container-ninaCarducci-project': ninaCarducciFeatures,
@@ -89,20 +78,14 @@ export default function displayProjectsData() {
             });
             featuresContainer.appendChild(ul);
         }
-
         featuresDiv.appendChild(featuresContainer);
 
-        const skillsDiv = document.createElement('div');
-        skillsDiv.classList.add('skills-div');
-        const skillsHeading = document.createElement('h3');
-        skillsHeading.classList.add('modal-txt-heading');
+        const skillsDiv = generateHtmlElement('div', 'skills-div');
+        const skillsHeading = generateHtmlElement('h3', 'modal-txt-heading');
         skillsHeading.textContent = "Stack :";
         skillsDiv.appendChild(skillsHeading);
 
-        const container = document.createElement('div');
-        container.classList.add('modal-skills-container');
-        container.id = `modal-skills-container-${project.id}`;
-
+        const container = generateHtmlElement('div', 'modal-skills-container', `modal-skills-container-${project.id}`);
         const skillsDataMap = {
             'modal-skills-container-ninaCarducci-project': ninaCarducciSkills,
             'modal-skills-container-ArgentBank-project': argentBankSkills,
@@ -114,13 +97,20 @@ export default function displayProjectsData() {
         if (skillsDataMap[container.id]) {
             skillsDataMap[container.id].forEach(skill => {
                 const skillElement = document.createElement('span');
-                skillElement.classList.add('modal-skill-span');
-                const img = document.createElement('img');
-                img.classList.add("modal-skill-img");
-                img.src = skill.imgSrc;
-                img.alt = skill.imgAlt;
-                skillElement.appendChild(img);
-                container.appendChild(skillElement);
+
+                if (container.id === "modal-skills-container-ninaCarducci-project") {
+                    skillElement.classList.add('text-skill-span');
+                    skillElement.textContent = skill.name;
+                    container.appendChild(skillElement);
+                } else {
+                    skillElement.classList.add('modal-skill-span');
+                    const img = document.createElement('img');
+                    img.classList.add("modal-skill-img");
+                    img.src = skill.imgSrc;
+                    img.alt = skill.imgAlt;
+                    skillElement.appendChild(img);
+                    container.appendChild(skillElement);
+                }
             });
         }
 
@@ -128,12 +118,10 @@ export default function displayProjectsData() {
         modalMainDiv.appendChild(featuresDiv);
         modalMainDiv.appendChild(skillsDiv);
 
-        const linksDiv = document.createElement('div');
-        linksDiv.classList.add('links-div');
-
-        const projectLink = document.createElement('button');
+        const linksDiv = generateHtmlElement('div', 'links-div');
+        const projectLink = generateHtmlElement('button', 'modal-link-btn');
         projectLink.textContent = 'Code-source';
-        projectLink.classList.add('modal-link-btn');
+
         projectLink.addEventListener('click', () => {
             window.open(project.codeLink);
         });
@@ -151,9 +139,8 @@ export default function displayProjectsData() {
         projectContainer.appendChild(div);
 
         if (project.demoLink !== "none") {
-            const demoLinkBtn = document.createElement('button');
+            const demoLinkBtn = generateHtmlElement('button', 'modal-link-btn');
             demoLinkBtn.textContent = 'Démo';
-            demoLinkBtn.classList.add('modal-link-btn');
             demoLinkBtn.addEventListener('click', () => {
                 window.open(project.demoLink);
             });
@@ -161,9 +148,8 @@ export default function displayProjectsData() {
         }
 
         if (project.id === "ninaCarducci-project") {
-            const pdfLink = document.createElement('button');
+            const pdfLink = generateHtmlElement('button', 'modal-link-btn');
             pdfLink.textContent = 'Rapport d\'optimisation';
-            pdfLink.classList.add('modal-link-btn');
             pdfLink.addEventListener('click', () => {
                 window.open("https://natashafinkel.github.io/my-portfolio/assets/Rapport-optimisation.pdf");
             });
