@@ -43,6 +43,7 @@ export default function displayProjectsData() {
 
         const modalMainDiv = generateHtmlElement('div', 'modal-main-div');
         const pitchDiv = generateHtmlElement('div', 'project-pitch');
+        const firstcontainer = generateHtmlElement('div', 'first-container');
 
         const pitchHeading = generateHtmlElement('h3', 'modal-txt-heading');
         pitchHeading.textContent = "Le pitch :";
@@ -51,7 +52,7 @@ export default function displayProjectsData() {
         const pitchP = document.createElement('p');
         pitchP.textContent = project.pitch;
         pitchDiv.appendChild(pitchP);
-        modalMainDiv.appendChild(pitchDiv);
+        firstcontainer.appendChild(pitchDiv);
 
         const featuresDiv = generateHtmlElement('div', 'features-div');
         const featuresHeading = generateHtmlElement('h3', 'modal-txt-heading');
@@ -97,7 +98,7 @@ export default function displayProjectsData() {
                 const skillElement = document.createElement('span');
 
                 if (container.id === "modal-skills-container-ninaCarducci-project") {
-                    skillElement.classList.add('text-skill-span');
+                    skillElement.classList.add('modal-text-skill-span');
                     skillElement.textContent = skill.name;
                     container.appendChild(skillElement);
                 } else {
@@ -110,7 +111,8 @@ export default function displayProjectsData() {
         }
 
         skillsDiv.appendChild(container);
-        modalMainDiv.appendChild(featuresDiv);
+        firstcontainer.appendChild(featuresDiv);
+        modalMainDiv.appendChild(firstcontainer);
         modalMainDiv.appendChild(skillsDiv);
 
         const linksDiv = generateHtmlElement('div', 'links-div');
