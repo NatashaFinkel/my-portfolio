@@ -1,5 +1,6 @@
 import projects from "../json/projects.json";
 import generateHtmlElement from "./generateHtmlElement";
+import generateImgElement from "./generateImgElement";
 import ninaCarducciFeatures from "../json/ninaCarducciFeatures.json";
 import argentBankFeatures from "../json/argentBankFeatures.json";
 import cutePetprojectFeatures from "../json/cutePetProjectFeatures.json";
@@ -15,10 +16,7 @@ export default function displayProjectsData() {
     projects.forEach(project => {
         const div = generateHtmlElement('div', 'project-container', project.id);
 
-        const projectImg = document.createElement('img');
-        projectImg.src = project.src;
-        projectImg.alt = project.alt;
-        projectImg.classList.add('project-img');
+        const projectImg = generateImgElement(project.src, project.alt, 'project-img');
         div.appendChild(projectImg);
 
         const modal = generateHtmlElement('div', 'modal');
@@ -104,10 +102,7 @@ export default function displayProjectsData() {
                     container.appendChild(skillElement);
                 } else {
                     skillElement.classList.add('modal-skill-span');
-                    const img = document.createElement('img');
-                    img.classList.add("modal-skill-img");
-                    img.src = skill.imgSrc;
-                    img.alt = skill.imgAlt;
+                    const img = generateImgElement(skill.imgSrc, skill.imgAlt, 'modal-skill-img');
                     skillElement.appendChild(img);
                     container.appendChild(skillElement);
                 }
@@ -157,10 +152,7 @@ export default function displayProjectsData() {
         }
 
         if (project.additionalImgSrc !== "none") {
-            const additionalImg = document.createElement('img');
-            additionalImg.src = project.additionalImgSrc;
-            additionalImg.alt = project.additionalImgAlt;
-            additionalImg.classList.add("openClassRooms");
+            const additionalImg = generateImgElement(project.additionalImgSrc, project.additionalImgAlt, 'openClassRooms');
             div.appendChild(additionalImg);
         } else {
             return;
