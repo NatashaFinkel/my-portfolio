@@ -602,6 +602,15 @@ footer p:first-of-type {
     list-style-type: square;
 }
 
+.text-skill-span {
+    height: 30px;
+    font-weight: 400;
+    padding: 0px 15px;
+    align-content: center;
+    color: white;
+    background-color: var(--secondary-color);
+}
+
 .links-div {
     justify-content: center;
     display: flex;
