@@ -46,7 +46,7 @@ export default function displayProjectsData() {
         const firstcontainer = generateHtmlElement('div', 'first-container');
 
         const pitchHeading = generateHtmlElement('h3', 'modal-txt-heading');
-        pitchHeading.textContent = "Le pitch :";
+        pitchHeading.textContent = "Pitch";
         pitchDiv.appendChild(pitchHeading);
 
         const pitchP = document.createElement('p');
@@ -56,7 +56,7 @@ export default function displayProjectsData() {
 
         const featuresDiv = generateHtmlElement('div', 'features-div');
         const featuresHeading = generateHtmlElement('h3', 'modal-txt-heading');
-        featuresHeading.textContent = "Fonctionnalités :";
+        featuresHeading.textContent = "Fonctionnalités";
         featuresDiv.appendChild(featuresHeading);
 
         const featuresContainer = generateHtmlElement('div', 'features-container', `features-container-${project.id}`);
@@ -81,7 +81,7 @@ export default function displayProjectsData() {
 
         const skillsDiv = generateHtmlElement('div', 'skills-div');
         const skillsHeading = generateHtmlElement('h3', 'modal-txt-heading');
-        skillsHeading.textContent = "Stack :";
+        skillsHeading.textContent = "Stack";
         skillsDiv.appendChild(skillsHeading);
 
         const container = generateHtmlElement('div', 'modal-skills-container', `modal-skills-container-${project.id}`);
