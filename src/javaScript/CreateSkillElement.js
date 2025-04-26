@@ -1,16 +1,16 @@
 export default function CreateSkillElement(skill, container) {
+    const pageURL = window.location;
+    const currentPage = pageURL.pathname;
     const span = document.createElement('span');
-
+    const img = document.createElement('img');
 
     if (!skill.imgSrc) {
         span.classList.add('modal-text-skill-span');
         span.textContent = skill.name;
     } else {
         span.classList.add('modal-skill-span');
-        const img = document.createElement('img');
         img.src = skill.imgSrc;
         img.alt = skill.imgAlt;
-        img.classList.add('modal-skill-img');
         span.classList.add('tooltip-container');
         const tooltip = document.createElement('div');
         tooltip.className = 'tooltip';
@@ -18,9 +18,14 @@ export default function CreateSkillElement(skill, container) {
         span.appendChild(tooltip);
         span.appendChild(img);
     }
+    if (currentPage === "/my-portfolio/skills") {
+        span.classList.add('skill');
+        img.classList.add('hard-skills-img');
+    } else if (currentPage === "/my-portfolio/projects") {
+        img.classList.add('modal-skill-img');
+    }
     if (container) {
         container.appendChild(span);
     }
-
     return span;
 }
