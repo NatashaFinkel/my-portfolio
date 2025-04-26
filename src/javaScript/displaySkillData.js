@@ -14,6 +14,7 @@ export default function displaySkillData() {
     softSkills.forEach(skill => {
         const span = generateHtmlElement('span', 'skill');
         span.classList.add('soft-skill');
+        span.classList.add('visible');
         span.appendChild(document.createTextNode(skill.title));
         softSkillsContainer.appendChild(span);
     });
