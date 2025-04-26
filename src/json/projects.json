@@ -9,7 +9,10 @@
         "codeLink": "https://github.com/NatashaFinkel/Projet-9",
         "demoLink": "https://natashafinkel.github.io/Projet-9/",
         "additionalImgSrc": "./assets/projects-logo/logo-openClassRooms.webp",
-        "additionalImgAlt": "logo d'OpenClassRooms"
+        "additionalImgAlt": "logo d'OpenClassRooms",
+        "feature1": "Optimisation des performances",
+        "feature2": "Accessibilité, SEO, référencement local",
+        "feature3": "Réalisation d’audits"
     },
     {
         "id": "ArgentBank-project",
@@ -21,7 +24,11 @@
         "codeLink": "https://github.com/NatashaFinkel/P-11-version-2",
         "demoLink": "none",
         "additionalImgSrc": "./assets/projects-logo/logo-openClassRooms.webp",
-        "additionalImgAlt": "logo d'OpenClassRooms"
+        "additionalImgAlt": "logo d'OpenClassRooms",
+        "feature1": "Visiter la page d'accueil",
+        "feature2": "Se connecter/se déconnecter (gestion des erreurs si username ou mdp incorrect)",
+        "feature3": "Accès au profil uniquement après l'authentification",
+        "feature4": "Modification du pseudo, mais pas le prénom ni le nom"
     },
     {
         "id": "cute-pet-project",
@@ -33,7 +40,10 @@
         "codeLink": "https://github.com/NatashaFinkel/cute-pet-project",
         "demoLink": "https://natashafinkel.github.io/cute-pet-project/",
         "additionalImgSrc": "none",
-        "additionalImgAlt": "none"
+        "additionalImgAlt": "none",
+        "feature1": "Génération dynamique (TypeScript) d’une card pour chaque animal",
+        "feature2": "Possibilité de voir les différentes cards dans l’ordre, mais aussi dans l’ordre inverse grâce à des boutons (flèches)",
+        "feature3": "Possibilité de voir une card choisie de manière aléatoire"
     },
     {
         "id": "wildFlowers-project",
@@ -45,6 +55,9 @@
         "codeLink": "https://github.com/NatashaFinkel/The-flower-power-project",
         "demoLink": "https://natashafinkel.github.io/The-flower-power-project/",
         "additionalImgSrc": "none",
-        "additionalImgAlt": "none"
+        "additionalImgAlt": "none",
+        "feature1": "Ajouter/supprimer un bouquet au panier",
+        "feature2": "Calcul du prix de la somme des bouquets du panier",
+        "feature3": "Formulaire de contact : échec de l’envoi si l’email est non-conforme ou manquant"
     }
 ]

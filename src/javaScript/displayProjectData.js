@@ -2,10 +2,6 @@ import projects from "../json/projects.json";
 import hardSkills from '../json/hardSkills.json';
 import generateHtmlElement from "./generateHtmlElement";
 import generateImgElement from "./generateImgElement";
-import ninaCarducciFeatures from "../json/ninaCarducciFeatures.json";
-import argentBankFeatures from "../json/argentBankFeatures.json";
-import cutePetprojectFeatures from "../json/cutePetProjectFeatures.json";
-import wildFlowersProjectFeatures from "../json/wildFlowersProjectFeatures.json";
 import CreateSkillElement from '../javaScript/CreateSkillElement';
 
 export default function displayProjectsData() {
@@ -58,23 +54,15 @@ export default function displayProjectsData() {
         featuresDiv.appendChild(featuresHeading);
 
         const featuresContainer = generateHtmlElement('div', 'features-container', `features-container-${project.id}`);
+        const ul = document.createElement('ul');
+        const features = [project.feature1, project.feature2, project.feature3, project.feature4].filter(Boolean);
 
-        const featuresDataMap = {
-            'features-container-ninaCarducci-project': ninaCarducciFeatures,
-            'features-container-ArgentBank-project': argentBankFeatures,
-            'features-container-cute-pet-project': cutePetprojectFeatures,
-            'features-container-wildFlowers-project': wildFlowersProjectFeatures
-        };
-
-        if (featuresDataMap[featuresContainer.id]) {
-            const ul = document.createElement('ul');
-            featuresDataMap[featuresContainer.id].forEach(feature => {
-                const li = document.createElement('li');
-                li.textContent = feature.feature || "Fonctionnalité inconnue";
-                ul.appendChild(li);
-            });
-            featuresContainer.appendChild(ul);
-        }
+        features.forEach(feature => {
+            const li = document.createElement('li');
+            li.textContent = feature;
+            ul.appendChild(li);
+        });
+        featuresContainer.appendChild(ul);
         featuresDiv.appendChild(featuresContainer);
 
         const skillsDiv = generateHtmlElement('div', 'skills-div');
@@ -83,7 +71,6 @@ export default function displayProjectsData() {
         skillsDiv.appendChild(skillsHeading);
 
         const container = generateHtmlElement('div', 'modal-skills-container', `modal-skills-container-${project.id}`);
-
         skillsDiv.appendChild(container);
 
         switch (container.id) {
@@ -131,7 +118,6 @@ export default function displayProjectsData() {
         projectLink.addEventListener('click', () => {
             window.open(project.codeLink);
         });
-
         linksDiv.appendChild(projectLink);
 
         div.addEventListener('click', () => {
