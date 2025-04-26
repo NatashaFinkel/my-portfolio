@@ -1,26 +1,22 @@
 import journeyStep from "../json/myJourney.json";
+import generateHtmlElement from "./generateHtmlElement";
 
 export default function displayMyJourneyData() {
     const journeyContainer = document.getElementById('j-1');
 
     journeyStep.forEach(step => {
-        const div = document.createElement('div');
-        div.classList.add('row');
-        const yearSpan = document.createElement('span');
-        yearSpan.classList.add('year');
+        const div = generateHtmlElement('div', 'row');
+        const yearSpan = generateHtmlElement('span', 'year');
         yearSpan.appendChild(document.createTextNode(step.year || step.dates));
         div.appendChild(yearSpan);
 
-        const detailsDiv = document.createElement('div');
-        detailsDiv.classList.add('details');
-
+        const detailsDiv = generateHtmlElement('div', 'details');
         const h2 = document.createElement('h2');
         h2.appendChild(document.createTextNode(step.title || step.jobTitle));
         detailsDiv.appendChild(h2);
         div.appendChild(detailsDiv);
 
-        const subTitle = document.createElement('p');
-        subTitle.classList.add('formation-detail');
+        const subTitle = generateHtmlElement('p', 'formation-detail');
         subTitle.appendChild(document.createTextNode(step.subTitle || step.company));
         detailsDiv.appendChild(subTitle);
 
