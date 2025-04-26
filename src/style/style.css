@@ -617,7 +617,7 @@ h3 {
     height: 30px;
     font-weight: 400;
     padding: 0px 15px;
-    align-content: center;
+    justify-content: center;
     background-color: var(--tertiary-color);
     border: 1px solid var(--primary-color);
     color: var(--primary-color);
