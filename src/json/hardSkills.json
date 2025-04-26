@@ -1,98 +1,130 @@
 [
     {
+        "id": "hardSkill-1",
         "name": "HTML",
         "imgSrc": "./assets/hardSkills/html5.svg",
         "imgAlt": "logo html",
         "imgCredits": "https://svgl.app/?ref=dailydev&search=html"
     },
     {
+        "id": "hardSkill-2",
         "name": "CSS",
         "imgSrc": "./assets/hardSkills/css.svg",
         "imgAlt": "logo css",
         "imgCredits": "https://svgl.app/?ref=dailydev&search=css"
     },
     {
+        "id": "hardSkill-3",
         "name": "Sass",
         "imgSrc": "./assets/hardSkills/sass.svg",
         "imgAlt": "logo Sass",
         "imgCredits": "https://svgl.app/?ref=dailydev&search=sass"
     },
     {
+        "id": "hardSkill-4",
         "name": "JavaScript",
         "imgSrc": "./assets/hardSkills/javascript.svg",
         "imgAlt": "logo JavaScript",
         "imgCredits": "https://svgl.app/?ref=dailydev&search=JavaScript"
     },
     {
+        "id": "hardSkill-5",
         "name": "TypeScript",
         "imgSrc": "./assets/hardSkills/typescript.svg",
         "imgAlt": "logo TypeScript",
         "imgCredits": "https://svgl.app/?ref=dailydev&search=TypeScript"
     },
     {
+        "id": "hardSkill-6",
         "name": "React",
         "imgSrc": "./assets/hardSkills/react.svg",
         "imgAlt": "logo React",
         "imgCredits": "https://svgl.app/?ref=dailydev&search=React"
     },
     {
+        "id": "hardSkill-7",
         "name": "Vite",
         "imgSrc": "./assets/hardSkills/vite.svg",
         "imgAlt": "logo vite",
         "imgCredits": "https://pixabay.com/fr/illustrations/search-engine-optimization-seo-1359427/"
     },
     {
+        "id": "hardSkill-8",
         "name": "React Router",
         "imgSrc": "./assets/hardSkills/react-router.svg",
         "imgAlt": "logo React Router",
         "imgCredits": "https://svgl.app/?ref=dailydev&search=React"
     },
     {
+        "id": "hardSkill-9",
         "name": "Create React App",
         "imgSrc": "./assets/hardSkills/create-react-app.svg",
         "imgAlt": "logo Create React App",
         "imgCredits": "https://create-react-app.dev/"
     },
     {
+        "id": "hardSkill-10",
         "name": "Redux, Redux Toolkit",
         "imgSrc": "./assets/hardSkills/redux.svg",
         "imgAlt": "logo Redux, Redux ToolKit",
         "imgCredits": "https://svgl.app/?ref=dailydev&search=Redux"
     },
     {
+        "id": "hardSkill-11",
         "name": "Jest",
         "imgSrc": "./assets/hardSkills/jest.svg",
         "imgAlt": "logo jest",
         "imgCredits": "https://svgl.app/?ref=dailydev&search=Jest"
     },
     {
+        "id": "hardSkill-12",
         "name": "VS Code",
         "imgSrc": "./assets/hardSkills/vscode.svg",
         "imgAlt": "logo VS Code",
         "imgCredits": "https://svgl.app/?ref=dailydev&search=Visual+Studio+Code"
     },
     {
+        "id": "hardSkill-13",
         "name": "Git",
         "imgSrc": "./assets/hardSkills/git.svg",
         "imgAlt": "logo Git",
         "imgCredits": "https://svgl.app/?ref=dailydev&search=Git"
     },
     {
+        "id": "hardSkill-14",
         "name": "GitHub",
         "imgSrc": "./assets/hardSkills/Github_light.svg",
         "imgAlt": "logo GitHub",
         "imgCredits": "https://svgl.app/?ref=dailydev&search=Github"
     },
     {
-        "name": "SEO",
-        "imgSrc": "./assets/hardSkills/SEO.svg",
-        "imgAlt": "logo SEO",
-        "imgCredits": "https://pixabay.com/fr/illustrations/search-engine-optimization-seo-1359427/"
+        "id": "hardSkill-15",
+        "name": "SEO"
     },
     {
+        "id": "hardSkill-16",
         "name": "English",
         "imgSrc": "./assets/hardSkills/union-jack.svg",
         "imgAlt": "drapeau britannique",
         "imgCredits": "https://pixabay.com/fr/vectors/uni-drapeau-royaume-britanique-28519/"
+    },
+    {
+        "id": "hardSkill-17",
+        "name": "Swagger",
+        "imgSrc": "./assets/hardSkills/swagger.svg",
+        "imgAlt": "logo Swagger",
+        "imgCredits": "https://svgl.app/?ref=dailydev&search=swagge"
+    },
+    {
+        "id": "hardSkill-18",
+        "name": "LighHouse"
+    },
+    {
+        "id": "hardSkill-19",
+        "name": "Wave"
+    },
+    {
+        "id": "hardSkill-20",
+        "name": "Rich Snippet"
     }
 ]

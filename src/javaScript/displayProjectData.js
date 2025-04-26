@@ -1,14 +1,12 @@
 import projects from "../json/projects.json";
+import hardSkills from '../json/hardSkills.json';
 import generateHtmlElement from "./generateHtmlElement";
 import generateImgElement from "./generateImgElement";
 import ninaCarducciFeatures from "../json/ninaCarducciFeatures.json";
 import argentBankFeatures from "../json/argentBankFeatures.json";
 import cutePetprojectFeatures from "../json/cutePetProjectFeatures.json";
 import wildFlowersProjectFeatures from "../json/wildFlowersProjectFeatures.json";
-import ninaCarducciSkills from "../json/ninaCarducciSkills.json";
-import argentBankSkills from "../json/argentBankSkills.json";
-import cutePetprojectSkills from "../json/cutePetProjectSkills.json";
-import wildFlowersProjectSkills from "../json/wildFlowersProjectSkills.json";
+import CreateSkillElement from '../javaScript/CreateSkillElement';
 
 export default function displayProjectsData() {
     const projectContainer = document.getElementById('projectPage-main-container');
@@ -85,32 +83,43 @@ export default function displayProjectsData() {
         skillsDiv.appendChild(skillsHeading);
 
         const container = generateHtmlElement('div', 'modal-skills-container', `modal-skills-container-${project.id}`);
-        const skillsDataMap = {
-            'modal-skills-container-ninaCarducci-project': ninaCarducciSkills,
-            'modal-skills-container-ArgentBank-project': argentBankSkills,
-            'modal-skills-container-cute-pet-project': cutePetprojectSkills,
-            'modal-skills-container-wildFlowers-project': wildFlowersProjectSkills
-        };
-
-        // Si l'id du container correspond à l'un des éléments de skillsDataMap, les données associées sont affichées.
-        if (skillsDataMap[container.id]) {
-            skillsDataMap[container.id].forEach(skill => {
-                const skillElement = document.createElement('span');
-
-                if (container.id === "modal-skills-container-ninaCarducci-project") {
-                    skillElement.classList.add('modal-text-skill-span');
-                    skillElement.textContent = skill.name;
-                    container.appendChild(skillElement);
-                } else {
-                    skillElement.classList.add('modal-skill-span');
-                    const img = generateImgElement(skill.imgSrc, skill.imgAlt, 'modal-skill-img');
-                    skillElement.appendChild(img);
-                    container.appendChild(skillElement);
-                }
-            });
-        }
 
         skillsDiv.appendChild(container);
+
+        switch (container.id) {
+            case 'modal-skills-container-ninaCarducci-project':
+                CreateSkillElement(hardSkills[14], container);
+                CreateSkillElement(hardSkills[17], container);
+                CreateSkillElement(hardSkills[18], container);
+                CreateSkillElement(hardSkills[19], container);
+                break;
+            case 'modal-skills-container-ArgentBank-project':
+                CreateSkillElement(hardSkills[5], container);
+                CreateSkillElement(hardSkills[9], container);
+                CreateSkillElement(hardSkills[7], container);
+                CreateSkillElement(hardSkills[8], container);
+                CreateSkillElement(hardSkills[16], container);
+                break;
+            case 'modal-skills-container-cute-pet-project':
+                CreateSkillElement(hardSkills[4], container);
+                CreateSkillElement(hardSkills[6], container);
+                CreateSkillElement(hardSkills[10], container);
+                CreateSkillElement(hardSkills[12], container);
+                CreateSkillElement(hardSkills[13], container);
+                break;
+            case
+                'modal-skills-container-wildFlowers-project':
+                CreateSkillElement(hardSkills[5], container);
+                CreateSkillElement(hardSkills[9], container);
+                CreateSkillElement(hardSkills[7], container);
+                CreateSkillElement(hardSkills[6], container);
+                CreateSkillElement(hardSkills[10], container);
+                CreateSkillElement(hardSkills[12], container);
+                CreateSkillElement(hardSkills[13], container);
+                break;
+            default:
+        }
+
         firstcontainer.appendChild(featuresDiv);
         modalMainDiv.appendChild(firstcontainer);
         modalMainDiv.appendChild(skillsDiv);
@@ -171,4 +180,13 @@ export default function displayProjectsData() {
             timeouts.push(timeout);
         });
     }, 100);
+
+    const modalSkillSpan = document.querySelectorAll(".modal-skill-span");
+    const timeouts = [];
+    modalSkillSpan.forEach((item, index) => {
+        const timeout = setTimeout(() => {
+            item.classList.add("visible");
+        }, index * 400);
+        timeouts.push(timeout);
+    });
 }
