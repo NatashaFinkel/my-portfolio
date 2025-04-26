@@ -17,13 +17,4 @@ export default function displaySkillData() {
         span.appendChild(document.createTextNode(skill.title));
         softSkillsContainer.appendChild(span);
     });
-
-    const skills = document.querySelectorAll(".skill");
-    const timeouts = [];
-    skills.forEach((item, index) => {
-        const timeout = setTimeout(() => {
-            item.classList.add("visible");
-        }, index * 400);
-        timeouts.push(timeout);
-    });
 } 
